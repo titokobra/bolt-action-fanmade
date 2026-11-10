@@ -69,7 +69,7 @@ Despliegue oculto: No
 Bombardeo preliminar: No`],
 
  
-["4","ALTO SECRETO / TOP SECRET",["4","ALTO SECRETO/ TOP SECRET",
+["4","ALTO SECRETO / TOP SECRET",
  `ESCENARIO
 Primero, coloca el marcador del maletín en el centro de la mesa. Debe ser un marcador redondo de 25 mm, como los utilizados en la misión Posiciones Clave. Los jugadores pueden representarlo con cualquier modelo adecuado, como una caja, paracaídas o miniatura de oficial.
 
