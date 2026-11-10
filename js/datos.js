@@ -886,7 +886,6 @@ const deploymentRules = { '1-3': `Ambos jugadores tiran un dado. El jugador con 
 
 const baseScenarioNames = [
  'BUSCAR Y DESTRUIR',
-  {title:"MUERTE ANTES QUE DESHONOR",text:`Todas las unidades de esta lista tienen la regla especial Fanáticos, descrita en la página 120. Además, las unidades de infantería y artillería superan automáticamente los chequeos de moral por ser asaltadas por tanques enemigos (ten en cuenta que las piezas de artillería siguen siendo destruidas de forma normal).`},
  'POSICIONES CLAVE',
  'RUPTURA',
  'TOP SECRET',
