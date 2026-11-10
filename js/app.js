@@ -1,6 +1,6 @@
 const $ = s => document.querySelector(s);
 const view = $('#view');
-const initialState = () => ({screen:'home',p1:'Jugador 1',p2:'Jugador 2',d1:8,d2:8,round:1,remaining1:8,remaining2:8,bag:[],drawn:[],last:null,mode:'',winner:null,active:false,removeDieOpen:false,flankingEnabled:false,flankChoices:{p1:null,p2:null},flankRevealed:{p1:false,p2:false},flankStep:1,flankModal:false,flankSelected:null,flankPendingChoice:null,timerStartedAt:null,roundStart1:8,roundStart2:8,countLimitNotice:''});
+const initialState = () => ({screen:'home',p1:'Jugador 1',p2:'Jugador 2',d1:8,d2:8,round:1,remaining1:8,remaining2:8,bag:[],drawn:[],last:null,mode:'',winner:null,active:false,removeDieOpen:false,flankingEnabled:false,flankChoices:{p1:null,p2:null},flankRevealed:{p1:false,p2:false},flankStep:1,flankModal:false,flankSelected:null,flankPendingChoice:null,timerStartedAt:null,timerStoppedAt:null,roundStart1:8,roundStart2:8,countLimitNotice:''});
 let state = JSON.parse(localStorage.getItem('ba_state') || 'null') || initialState();
 // Compatibilidad con partidas guardadas en versiones anteriores.
 if (state.round == null) state.round = state.turn || 1;
@@ -8,6 +8,7 @@ delete state.turn;
 // Restaurar exactamente la pantalla y la posición guardadas, también en reglas y escenarios.
 if (state.scrollY == null) state.scrollY = 0;
 if (state.timerStartedAt === undefined) state.timerStartedAt = null;
+if (state.timerStoppedAt === undefined) state.timerStoppedAt = null;
 if (state.roundStart1 === undefined) state.roundStart1 = state.d1 || 8;
 if (state.roundStart2 === undefined) state.roundStart2 = state.d2 || 8;
 if (state.countLimitNotice === undefined) state.countLimitNotice = '';
@@ -24,10 +25,14 @@ function updateGlobalClock(){
  const box=$('#globalClock'),value=$('#clockValue');
  if(!box||!value)return;
 
- // Mostrar el reloj únicamente al finalizar la partida
- box.style.display = state.screen === 'winner' ? '' : 'none';
+ const endTime = state.timerStoppedAt
+  ? Number(state.timerStoppedAt)
+  : Date.now();
 
- const elapsed=state.timerStartedAt?Date.now()-Number(state.timerStartedAt):0;
+ const elapsed = state.timerStartedAt
+  ? endTime - Number(state.timerStartedAt)
+  : 0;
+
  value.textContent=formatClock(elapsed);
 
  box.classList.toggle('warning',elapsed>=105*60*1000&&elapsed<135*60*1000);
@@ -135,10 +140,38 @@ function countScreen(){view.innerHTML=`<section class="panel"><h2>DADOS PARA LA 
  <div class="choice-row">${btn('CONFIRMAR Y CONTINUAR','confirm-count')}</div></section>${backButton()}`}
 function adjustRow(id,name,val){return `<div class="player-adjust"><button data-adjust="${id}" data-delta="-1" aria-label="Restar">−</button><div><div class="pname">${esc(name)}</div><div class="count">${val}</div></div><button data-adjust="${id}" data-delta="1" aria-label="Sumar">+</button></div>`}
 function finishChoice(){view.innerHTML=`<section class="panel"><h2>FINAL DE LA RONDA 6</h2><p>¿Quieres terminar la partida o jugar una séptima ronda?</p><div class="choice-row">${btn('FIN DE PARTIDA','end-match')}${btn('RONDA 7','round-seven')}</div></section>${backButton()}`}
-function winner(){view.innerHTML=`<section class="panel" style="text-align:center"><h2>PARTIDA FINALIZADA</h2><p>Selecciona el resultado:</p><div class="choice-row" style="justify-content:center">${btn(esc(state.p1),'win-p1')}${btn(esc(state.p2),'win-p2')}${btn('EMPATE','win-draw')}</div>${state.winner?`<h3>RESULTADO: ${esc(state.winner)}</h3>`:''}<div class="choice-row" style="justify-content:center">${btn('VOLVER','home-finished')}</div></section>`}
+function winner(){
+ view.innerHTML=`
+ <section class="panel" style="text-align:center">
+  <h2>PARTIDA FINALIZADA</h2>
+
+  <div id="globalClock" aria-live="off"
+   style="position:static;display:flex;flex-direction:column;align-items:center;margin:20px auto;width:max-content;max-width:100%;">
+   <span class="clock-label">DURACIÓN TOTAL DE LA PARTIDA</span>
+   <span class="clock-value" id="clockValue">00:00:00</span>
+  </div>
+
+  <p>Selecciona el resultado:</p>
+
+  <div class="choice-row" style="justify-content:center">
+   ${btn(esc(state.p1),'win-p1')}
+   ${btn(esc(state.p2),'win-p2')}
+   ${btn('EMPATE','win-draw')}
+  </div>
+
+  ${state.winner?`<h3>RESULTADO: ${esc(state.winner)}</h3>`:''}
+
+  <div class="choice-row" style="justify-content:center">
+   ${btn('VOLVER','home-finished')}
+  </div>
+ </section>`;
+
+ updateGlobalClock();
+}
 function roundFinished(){view.innerHTML=`<section class="panel"><div class="round-finish-area"><div class="round-finish-title">RONDA ${state.round} FINALIZADA</div><div class="curtain" id="finishCurtain"></div></div><div class="draw-actions">${btn('CONTINUAR','continue-round')}</div></section>`;requestAnimationFrame(()=>{const c=$('#finishCurtain');if(c)c.classList.add('lift')})}
 function newBag(){state.roundStart1=state.remaining1;state.roundStart2=state.remaining2;state.countLimitNotice='';state.bag=[];for(let i=0;i<state.remaining1;i++)state.bag.push('p1');for(let i=0;i<state.remaining2;i++)state.bag.push('p2');state.bag.sort(()=>Math.random()-.5);state.drawn=[];state.last=null;state.reveal=false;state.removeDieOpen=false}
-function begin(){if(!state.timerStartedAt)state.timerStartedAt=Date.now();state.p1=$('#p1').value.trim()||'Jugador 1';state.p2=$('#p2').value.trim()||'Jugador 2';state.d1=clamp(+$('#d1').value,1,18);state.d2=clamp(+$('#d2').value,1,18);state.remaining1=state.d1;state.remaining2=state.d2;state.roundStart1=state.d1;state.roundStart2=state.d2;state.countLimitNotice='';state.round=1;state.winner=null;state.active=true;state.bag=[];state.drawn=[];state.removeDieOpen=false;state.flankingEnabled=false;state.flankChoices={p1:null,p2:null};state.flankRevealed={p1:false,p2:false};state.flankStep=1;state.flankModal=false;state.flankSelected=null;state.flankPendingChoice=null;state.screen='flanking-ask';render()}
+function begin(){state.timerStartedAt=Date.now();
+state.timerStoppedAt=null;state.p1=$('#p1').value.trim()||'Jugador 1';state.p2=$('#p2').value.trim()||'Jugador 2';state.d1=clamp(+$('#d1').value,1,18);state.d2=clamp(+$('#d2').value,1,18);state.remaining1=state.d1;state.remaining2=state.d2;state.roundStart1=state.d1;state.roundStart2=state.d2;state.countLimitNotice='';state.round=1;state.winner=null;state.active=true;state.bag=[];state.drawn=[];state.removeDieOpen=false;state.flankingEnabled=false;state.flankChoices={p1:null,p2:null};state.flankRevealed={p1:false,p2:false};state.flankStep=1;state.flankModal=false;state.flankSelected=null;state.flankPendingChoice=null;state.screen='flanking-ask';render()}
 function clamp(v,a,b){return Math.max(a,Math.min(b,Number.isFinite(v)?v:a))}
 function startRound(){newBag();state.screen='draw';render()}
 function nextDie(){
@@ -154,12 +187,28 @@ function nextDie(){
  },120);
 }
 function endRound(){if(state.bag.length)return;state.screen='round-finished';render()}
-function continueRound(){if(state.round===7){state.screen='winner'}else{state.remaining1=0;state.remaining2=0;state.screen='count'}render()}
+function continueRound(){
+ if(state.round===7){
+  state.timerStoppedAt=Date.now();
+  state.screen='winner';
+ }else{
+  state.remaining1=0;
+  state.remaining2=0;
+  state.screen='count';
+ }
+ render();
+}
 function confirmCount(){if(state.round===6){state.screen='finish-choice'}else{state.round++;state.screen='round-title'}render()}
 function resetMatch(){const modal=$('#resetConfirmModal');if(modal)modal.classList.add('open')}
 function closeResetModal(){const modal=$('#resetConfirmModal');if(modal)modal.classList.remove('open')}
 function confirmResetMatch(){closeResetModal();localStorage.removeItem('ba_state');state=initialState();render();updateGlobalClock() }
-function resetFinished(){state.screen='home';state.screenBeforePause=null;render()}
+function resetFinished(){
+ state.screen='home';
+ state.screenBeforePause=null;
+ state.timerStartedAt=null;
+ state.timerStoppedAt=null;
+ render();
+}
 view.addEventListener('input',e=>{
  const el=e.target;
  if(el.id==='p1'){state.p1=el.value;save()}
@@ -208,7 +257,11 @@ view.addEventListener('click',e=>{
  else if(a==='end-round')endRound()
  else if(a==='continue-round')continueRound()
  else if(a==='confirm-count')confirmCount()
- else if(a==='end-match'){state.screen='winner';render()}
+else if(a==='end-match'){
+ state.timerStoppedAt=Date.now();
+ state.screen='winner';
+ render();
+}
  else if(a==='round-seven'){state.round=7;state.screen='round-title';render()}
  else if(a==='win-p1'){state.winner=state.p1;render()}
  else if(a==='win-p2'){state.winner=state.p2;render()}
