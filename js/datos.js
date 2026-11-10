@@ -162,29 +162,203 @@ Avanzado
 Flanqueo Despliegue Oculto Bombardeo
 Preliminar
 SI SI NO NO`],
-["7","DOBLE ENVOLVIMIENTO / ENVELOPMENT",`PREPARACIÓN Y OBJETIVO\nLos jugadores tiran; el resultado más alto elige atacante o defensor. El atacante intenta introducir unidades en la DBZ del defensor o sacarlas por el borde enemigo; el defensor debe detenerlo.\n\nEl turno 1 el atacante introduce su primera oleada. La partida dura 6 turnos; al final del turno 6, con 1–3 termina y con 4–6 se juega un turno adicional.\n\nPUNTUACIÓN\nAtacante: 1 punto por unidad enemiga destruida; 2 puntos por cada unidad propia que termine dentro de la DBZ defensora, aunque sea parcialmente; 3 puntos por cada unidad propia que salga por el borde enemigo con todos sus modelos tocándolo.\nDefensor: 2 puntos por cada unidad enemiga destruida.\nUna diferencia de 2 puntos o más supone victoria clara; si no, empate.\n\nDESPLIEGUE\nDefensor: elige lado y despliega al menos la mitad de sus unidades en su DBZ; puede usar Despliegue Oculto. El resto queda en reserva.\nAtacante: no despliega al inicio; elige al menos la mitad de su fuerza como primera oleada (puede elegir todas); el resto queda en reserva.\n\nREGLAS ESPECIALES\nDespliegue avanzado: Sí
-Flanqueo: Sí
-Despliegue oculto: solo defensor
-Bombardeo preliminar: solo atacante`],
-["8","CAZA HUMANA / MANHUNT",`PREPARACIÓN\nLos jugadores tiran; el resultado más alto elige atacante o defensor. El atacante debe capturar al oficial de mayor rango del defensor. Si hay varios del mismo rango, se elige el de mayor coste en puntos; si siguen empatados, los jugadores acuerdan el objetivo. El defensor debe desplegarlo, no puede dejarlo en reserva.\n\nCAPTURA\nUna unidad de infantería debe asaltar en combate cuerpo a cuerpo a la unidad del oficial y destruirla.\n\nEl turno 1 el atacante introduce su primera oleada. La partida dura 6 turnos; al final del turno 6, 1–3 termina y 4–6 añade un turno.\n\nVICTORIA (elegir una modalidad; no combinar)\nCasual: si la unidad del oficial es destruida en combate cuerpo a cuerpo, gana el atacante. Si termina la partida y el oficial sigue vivo, gana el defensor. Si muere de otra forma, empate.\nTorneo/Liga: 1 punto por unidad destruida y 5 puntos por matar al oficial en combate cuerpo a cuerpo.\n\nDESPLIEGUE\nDefensor: elige lado y despliega la mitad de sus unidades (redondeando hacia abajo) a 12” del centro; puede usar Despliegue Oculto. El resto en reserva. El oficial debe estar entre las unidades desplegadas. Todos los vehículos quedan en reserva.\nAtacante: no despliega inicialmente; elige la mitad (redondeando hacia arriba) como primera oleada; resto en reserva.\n\nREGLAS ESPECIALES\nDespliegue avanzado: Sí
-Flanqueo: Niebla de Guerra/Combate Confuso
-Despliegue oculto: solo defensor
-Bombardeo preliminar: solo atacante.\nNiebla de Guerra/Combate Confuso: las reservas pueden entrar por cualquier borde excepto por el borde desde el que haya entrado la última reserva enemiga ese mismo turno. La restricción se reinicia al comienzo del siguiente turno.`],
-["9","GUERRA TOTAL",`PREPARACIÓN\nCada jugador tira. Empezando por el resultado más alto, colocan un objetivo en un cuadrante neutral, a más de 12” de su propia DBZ y a 18” del otro objetivo. Cada jugador despliega al menos la mitad de su ejército; puede dejar hasta la mitad en reserva/flanqueo, redondeando hacia abajo. Los infiltradores deben estar a más de 18” de los objetivos.\n\nLos objetivos se controlan como en Posiciones Clave. La partida dura 6 turnos; al final del turno 6, 1–3 termina y 4–6 añade un turno.\n\nPUNTUACIÓN\n1 punto por unidad de infantería; 2 puntos por tenientes, vehículos de piel blanda y artillería; 3 puntos por vehículos con blindaje 7+ y capitanes; 5 puntos por controlar objetivos. Se necesita una diferencia de 3 puntos o más para ganar.\n\nDESPLIEGUE\nZona: Cuadrantes
-Tipo: Posiciones preparadas + Reservas.\n\nREGLAS ESPECIALES\nDespliegue avanzado: Sí
-Flanqueo: Sí
-Despliegue oculto: solo defensor
-Bombardeo preliminar: solo atacante`],
-["10","PENETRATING STRIKE",`PREPARACIÓN\nLos jugadores tiran; el resultado más alto elige un borde largo. Cada uno despliega al menos el 50% de su ejército (redondeando hacia arriba); el resto queda en reserva. Se coloca en la bolsa un dado de orden por cada unidad desplegada. Las unidades se despliegan hasta 12” de su propio borde.\n\nOBJETIVO Y DESARROLLO\nRomper las líneas enemigas e introducir unidades en la DBZ rival. La partida comienza normalmente; las reservas entran por la propia DBZ y el flanqueo sigue las reglas habituales. Dura 6 turnos; al final del turno 6, un jugador tira: 4–6 añade turno, 1–3 termina.\n\nPUNTUACIÓN\n1 punto por cada unidad propia que termine fuera de ambas DBZ; 3 puntos por cada unidad propia que termine dentro de la DBZ enemiga (solo cuenta si más del 50% de los modelos están dentro); 1 punto por cada dado de orden enemigo perdido. Diferencia de 3 o más para ganar; si no, empate.\n\nDESPLIEGUE\nZona: Borde largo
-Tipo: Posiciones preparadas + Reservas.\n\nREGLAS ESPECIALES\nDespliegue avanzado: Sí
-Flanqueo: Sí
-Despliegue oculto: Sí
-Bombardeo preliminar: No`],
-["11","CAPTURAR POSICIONES / LAND GRAB / SECTORES",`PREPARACIÓN Y DESPLIEGUE\nDivide la mesa en cuatro cuadrantes. El resultado más alto elige borde largo y un cuadrante de su lado. Cada jugador puede dejar hasta la mitad de su ejército en reserva (redondeando hacia abajo). Despliegan el resto. Se coloca un dado de orden por cada unidad que no esté en reserva y deba desplegarse.\n\nSe extraen dados uno a uno. El jugador cuyo dado salga despliega completamente una unidad en su cuadrante, al menos a 12” del centro de la mesa. Puede usar Despliegue Oculto. Se repite hasta desplegar todas las unidades no reservadas.\n\nLa partida dura 6 turnos; al final del turno 6, 1–3 termina y 4–6 añade un turno.\n\nPUNTUACIÓN\n1 punto por unidad enemiga destruida; 1 punto por cada unidad propia completamente dentro de uno de los dos cuadrantes neutrales; 3 puntos por cada unidad propia completamente dentro del cuadrante enemigo. Si una unidad queda repartida entre cuadrantes, cuenta el cuadrante donde esté la mayoría de sus modelos (o la posición de la peana en unidades de un solo modelo). Diferencia de 2 o más para ganar; si no, empate.\n\nDESPLIEGUE\nZona: Cuadrantes
-Tipo: Posiciones preparadas + Reservas.\n\nREGLAS ESPECIALES\nDespliegue avanzado: Sí
-Flanqueo: No
-Despliegue oculto: Sí
-Bombardeo preliminar: Sí`],
+["7","DOBLE ENVOLVIMIENTO/ ENVELOPMENT",
+ `ESCENARIO:
+Ambos jugadores lanzan un dado. El jugador con el resultado más alto elige si
+desea ser atacante o defensor.
+El atacante debe intentar mover tantas unidades como sea posible a la zona de
+despliegue del defensor o salir del campo de batalla por el borde de la mesa
+enemigo. El defensor debe intentar impedirlo.
+Durante el Turno 1, el atacante debe introducir su primera oleada en la
+mesa.
+Duracion:
+La partida dura inicialmente 6 turnos. Al final del turno 6, lanza un dado:
+ Con un 1, 2 o 3, la partida termina.
+ Con un 4, 5 o 6, se juega un turno adicional.
+PUNTUACIÓN:
+El atacante obtiene:
+• 1 punto por cada unidad enemiga destruida
+• 2 puntos por cada unidad propia que termine la partida dentro de la zona
+de despliegue del defensor (aunque sea parcialmente)
+• 3 puntos por cada unidad propia que salga del tablero por el borde
+enemigo (todos los modelos deben estar tocando el borde)
+ El defensor obtiene:
+• 2 puntos por cada unidad enemiga destruida
+Si un jugador termina con 2 o más puntos de ventaja sobre el otro, se
+considera una victoria clara. En caso contrario, la partida termina en empate.
+TIPO DE DESPLIEGUE:
+El defensor elige un lado de la mesa y despliega al menos la mitad de sus
+unidades en su zona de despliegue. Estas unidades pueden usar Despliegue
+Oculto. Las unidades que no se despliegan al inicio quedan en reserva.
+El atacante no despliega ninguna unidad al inicio del juego. Debe designar al
+menos la mitad de su fuerza como su primera oleada (puede incluir todo el
+ejército si lo desea).
+Las unidades que no están en la primera oleada quedan en reserva.
+REGLAS ESPECIALES:
+Despliegue
+Avanzado
+Flanqueo Despliegue Oculto Bombardeo
+Preliminar
+SI SI Solo Defensor Solo Atacante`],
+
+["8","CAZA HUMANA/ MANHUNT",
+ `ESCENARIO:
+Ambos jugadores lanzan un dado. El jugador con el resultado más alto elige si
+desea ser atacante o defensor.
+El objetivo del atacante es capturar al oficial de mayor rango del ejército
+enemigo. Si hay dos o más oficiales del mismo rango, el objetivo será el que
+tenga mayor coste en puntos. Si el coste es igual, ambos jugadores deben
+acordar cuál será el objetivo.
+El defensor debe colocar ese oficial en la mesa — no puede mantenerse en
+reserva.
+Para capturar al oficial, una unidad de infantería debe asaltar la unidad del
+oficial en combate cuerpo a cuerpo y destruirla.
+Durante el Turno 1, el atacante debe introducir su primera oleada en la mesa.
+La partida dura 6 turnos.
+Al final del turno 6, lanza un dado:
+Con un 1, 2 o 3, la partida termina.
+Con un 4, 5 o 6, se juega un turno adicional.
+CONDICIONES DE VICTORIA:
+Para facilitar a jugabilidad aportamos las dos opciones existente según la
+situación se escogerá una u otra opción, NUNCA AMBAS.
+-OPCION 1 PARTIDAS CASUALES.
+• Si la unidad del oficial es destruida en combate cuerpo a cuerpo el
+atacante gana
+• Si el juego termina y el oficial sigue vivo e ileso, el defensor gana
+• Si el oficial muere pero no es en cuerpo a cuerpo sera empate
+-OPCION 2 PUNTUACION PARA TORNEOS Y LIGAS
+• 1 Puntos unidad destruida
+• 5 Puntos matar al oficial en cuerpo a cuerpo
+TIPO DE DESPLIEGUE :
+• El defensor elige un lado de la mesa y despliega la mitad de sus unidades
+(redondeando hacia abajo), dentro de un área de 12" alrededor del centro
+de la mesa. Estas unidades pueden usar Despliegue Oculto. Todas las
+unidades restantes se colocan en reserva.
+• El oficial objetivo debe estar entre las unidades desplegadas. Todos los
+vehículos deben ir a reserva.
+• El atacante no despliega ninguna unidad al inicio. Debe seleccionar la mitad
+de sus unidades (redondeando hacia arriba) como su primera oleada. El
+resto queda en reserva.
+REGLAS ESPECIALES:
+Despliegue
+Avanzado
+Flanqueo Despliegue Oculto Bombardeo
+Preliminar
+SI Niebla de guerra/
+Combate Confuso
+Solo Defensor Solo Atacante
+• Niebla de guerra/Combate confuso: Todas las unidades que entren desde
+reserva pueden hacerlo por cualquier borde de la mesa, excepto por el borde
+desde el que haya entrado la última reserva enemiga ese mismo turno. Al inicio
+del siguiente turno se resetea esta condición.`],
+
+["9","GUERRA TOTAL",
+ `ESCENARIO:
+Cada jugador tira un dado. Comenzando con el de mayor resultado, los
+jugadores deben colocar un objetivo en un cuadrante neutral a más de 12” de su
+zona de despliegue y separados entre ellos a 18”.
+Cada jugador debe desplegar como mínimo la mitad de su ejército, pudiendo
+dejar si lo desea, hasta la mitad de su ejército en reservas/flanqueo
+redondeando a la baja.
+Las unidades que infiltran deben estar a más 18” de los objetivos.
+Los objetivos se controlan como en POSICIONES CLAVE (misión
+2) La partida dura 6 turnos. Al final del turno 6, lanza un dado:
+ Con un 1, 2 o 3, la partida termina.
+ Con un 4, 5 o 6, se juega un turno adicional.
+Victoria
+Conseguir más puntos que el rival con una diferencia de 3 o más puntos para
+ganar.
+PUNTUACIÓN:
+• 1 punto, Unidades de infantería
+• 2 puntos, tenientes, vehículos soft skin y artillería
+• 3 puntos, Vehículos de blindaje 7+ y capitanes
+• 5 puntos, Controlar Objetivos
+TIPO DE DESPLIEGUE :
+Zona de Despliegue Tipo de Despliegue
+Cuadrantes Posiciones preparadas+Reservas
+REGLAS ESPECIALES:
+Despliegue
+Avanzado
+Flanqueo Despliegue Oculto Bombardeo
+Preliminar
+SI SI SOLO Defensor SOLO Atacante`],
+
+["10","PENETRATING STRIKE",
+ `ESCENARIO:
+Ambos jugadores lanzan un dado. El jugador con el resultado más alto elige
+uno de los bordes largos de la mesa.
+Cada jugador debe desplegar al menos el 50 % de su ejército (redondeando
+hacia arriba).
+Las unidades restantes se mantienen en reserva. Por cada unidad desplegada, se
+coloca un dado de orden correspondiente en la bolsa de dados de órdenes.
+Las unidades pueden desplegarse hasta 12" desde su borde de mesa.
+El objetivo es romper las líneas enemigas e introducir tantas unidades como sea
+posible en la zona de despliegue enemiga.
+La partida comienza de forma normal. Las unidades en reserva entran desde su
+DBZ. Las unidades en flanqueo entran normalmente según las reglas estándar de
+flanqueo.
+La partida dura 6 turnos. Al final del turno 6, uno de los jugadores lanza un dado:
+ Con un 4, 5 o 6, se juega un turno adicional.
+ En cualquier otro resultado, la partida termina.
+PUNTUACIÓN:
+ 1 punto por cada una de tus unidades que termine la partida fuera de ambas
+zonas de despliegue
+ 3 puntos por cada una de tus unidades que termine la partida dentro de la
+zona de despliegue enemiga o (Una unidad cuenta solo si más del 50 % de
+sus miniaturas están dentro de la zona correspondiente)
+ 1 punto por cada dado de orden enemigo perdido
+Si un jugador termina la partida con 3 o más puntos de ventaja sobre su
+oponente, gana.
+En caso contrario, es un empate.
+TIPO DE DESPLIEGUE :
+Zona de Despliegue Tipo de Despliegue
+Borde Largo Posiciones preparadas+Reservas
+REGLAS ESPECIALES:
+Despliegue
+Avanzado
+Flanqueo Despliegue Oculto Bombardeo
+Preliminar
+SI SI SI NO`],
+
+["11","CAPTURAR POSICIONES / LAND GRAB / SECTORES",
+ `ESCENARIO:
+Divide la mesa en cuatro cuadrantes, como se indica en el mapa del escenario.
+Ambos jugadores lanzan un dado. El jugador con el resultado más alto elige
+un borde largo de la mesa y uno de los cuadrantes de su lado.
+A continuación, los jugadores declaran qué unidades (si las hay) se colocan en
+reserva —hasta la mitad del ejército, redondeando hacia abajo.
+Una vez declaradas las reservas, los jugadores despliegan todas las demás
+unidades.
+Cada jugador coloca un dado de orden en la bolsa por cada unidad que no esté
+en reserva y que deba desplegarse.
+Se sacan dados uno a uno; el jugador cuyo dado se extrae debe desplegar
+completamente una de sus unidades en su cuadrante, al menos a 12" del
+centro de la mesa. Las unidades pueden usar Despliegue Oculto.
+Este proceso se repite hasta que todas las unidades no reservadas hayan sido
+desplegadas.
+La partida dura 6 turnos. Al final del turno 6, lanza un dado:
+ Con un 1, 2 o 3, la partida termina.
+ Con un 4, 5 o 6, se juega un turno adicional.
+PUNTUACIÓN:
+• 1 punto por cada unidad enemiga destruida
+• 1 punto por cada unidad amiga completamente dentro de uno de los dos
+cuadrantes neutrales
+• 3 puntos por cada unidad amiga completamente dentro del cuadrante
+enemigo
+Si una unidad está dividida entre varios cuadrantes, cuenta como ubicada en
+aquel donde tenga la mayoría de sus modelos (o, si es una unidad de un solo
+modelo, donde esté su base).
+Si un jugador obtiene 2 o más puntos más que su oponente, gana la partida.
+En caso contrario, termina en empate.
+TIPO DE DESPLIEGUE :
+Zona de Despliegue Tipo de Despliegue
+Cuadrantes Posiciones preparadas+Reservas
+REGLAS ESPECIALES:
+Despliegue
+Avanzado
+Flanqueo Despliegue Oculto Bombardeo
+Preliminar
+SI NO SI SI`],
 ["12","¡RODEADOS! / SURROUNDED",`PREPARACIÓN\nLos jugadores tiran; el resultado más alto elige atacante o defensor. El defensor elige lado y despliega la mitad de sus unidades (redondeando hacia abajo) a 12” del centro; puede usar Despliegue Oculto. El resto queda en reserva. El atacante no despliega inicialmente; asigna la mitad (redondeando hacia arriba) a la primera oleada y el resto a reserva.\n\nOBJETIVO Y DURACIÓN\nAmbos intentan destruir al enemigo preservando sus fuerzas. En el turno 1 el atacante introduce su primera oleada. La partida dura inicialmente 6 turnos; al final del turno 6, 1–3 termina y 4–6 añade un turno.\n\nPUNTUACIÓN\n1 punto por cada unidad enemiga destruida. Diferencia de 2 o más para ganar; si no, empate.\n\nDESPLIEGUE\nAtacante: Encuentro comprometido / Primera oleada + Reservas.\nDefensor: Despliegue sobre mesa + Reservas.\n\nREGLAS ESPECIALES\nDespliegue avanzado: Sí
 Flanqueo: Niebla de Guerra/Combate Confuso
 Despliegue oculto: solo atacante
