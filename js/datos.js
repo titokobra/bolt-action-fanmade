@@ -2,18 +2,28 @@ const scenarioGroups = {
 "ESCENARIOS JUEGO BASE": [],
 "PACK MISIONES 26 27": [
 ["1","BUSCAR Y DESTRUIR / SEEK AND DESTROY",`OBJETIVO\nEl objetivo es simple: ambos bandos deben infligir el mayor daño posible al enemigo mientras preservan sus propias fuerzas.
-\n\nPUNTUACIÓN\n1 punto por cada unidad enemiga destruida. Al final de la partida, suma los puntos de victoria según lo indicado. Si un
-jugador tiene al menos 2 puntos más que el otro, se considera una victoria
-clara. En caso contrario, el resultado se considera demasiado ajustado —
-empate.\n\nDESPLIEGUE\nZona: Tirar en tabla. Tipo: Tirar en tabla.\n\nREGLAS ESPECIALES\n
+\n\nPUNTUACIÓN\n1 punto por cada unidad enemiga destruida. Al final de la partida, suma los puntos de victoria según lo indicado. Si un jugador tiene al menos 2 puntos más que el otro, se considera una victoria
+clara. En caso contrario, el resultado se considera demasiado ajustado \n—empate.
 
-
-
+\n\nDESPLIEGUE\nZona: Tirar en tabla. Tipo: Tirar en tabla.\n\nREGLAS ESPECIALES\n
 Despliegue avanzado: Sí
 Flanqueo: Sí
 Despliegue oculto: No
 Bombardeo preliminar: No`],
-["2","POSICIONES CLAVE / KEY POSITION",`OBJETIVO\nSe determina el número de objetivos con una tirada de D3 + 4. Se utilizan marcadores redondos de 25 mm. Los jugadores tiran un dado; el resultado más alto coloca el primer objetivo y después se alternan.\n\nLos objetivos deben estar separados al menos 12” entre sí y a 6” o más de los bordes. No bloquean línea de visión ni afectan al movimiento.\n\nCONTROL\nUna unidad de infantería o artillería debe terminar su activación a 3” o menos del objetivo y no puede haber unidades enemigas de ningún tipo a esa distancia. El control es Sticky: permanece hasta el final o hasta que el enemigo lo recapture.\n\nVICTORIA\nGana quien controle más objetivos. Si ambos controlan el mismo número, empate.\n\nDESPLIEGUE\nZona: Tirar en tabla
+["2","POSICIONES CLAVE / KEY POSITION",`OBJETIVO\nLos jugadores deben intentar controlar el mayor número posible de objetivos. Un jugador lanza un D3 + 4 — ese será el número de marcadores de objetivo que se usarán en la partida. Deben ser fichas redondas de 25 mm. A
+continuación, ambos jugadores lanzan un dado.
+
+El jugador con el resultado más alto coloca un marcador de objetivo en cualquier lugar del campo de batalla. Luego lo hace su oponente. Los jugadores de forma alterna los colocan todos los marcadores.
+Todos los marcadores deben colocarse al menos a 12" entre sí y a 6" de cualquier borde de la mesa. Los objetivos no afectan la línea de visión ni el movimiento.
+Para capturar un objetivo, una unidad de infantería o artillería debe terminar su
+activación a 3" o menos del objetivo, y no puede haber ninguna unidad
+enemiga de ningún tipo a esa misma distancia. Una vez capturado, márcalo
+como propio con una miniatura o ficha adecuada. El objetivo permanecerá bajo
+tu control (Sticky) hasta el final de la partida o hasta que una unidad enemiga
+lo recapture bajo las mismas condiciones.
+PUNTUACIÓN:
+Al final de la partida, si controlas más objetivos que tu oponente, ganas. En
+caso contrario, el resultado es empate.
 Tipo: Tirar en tabla.\n\nREGLAS ESPECIALES\nDespliegue avanzado: Sí
 Flanqueo: Sí
 Despliegue oculto: No
