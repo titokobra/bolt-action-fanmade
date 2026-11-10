@@ -1,17 +1,28 @@
 const scenarioGroups = {
 "ESCENARIOS JUEGO BASE": [],
 "PACK MISIONES 26 27": [
-["1","BUSCAR Y DESTRUIR / SEEK AND DESTROY",`OBJETIVO\nEl objetivo es simple: ambos bandos deben infligir el mayor daño posible al enemigo mientras preservan sus propias fuerzas.
-\n\nPUNTUACIÓN\n1 punto por cada unidad enemiga destruida. Al final de la partida, suma los 
-puntos de victoria según lo indicado. Si un jugador tiene al menos 2 puntos más que el otro, 
-se considera una victoria clara. En caso contrario, el resultado se considera demasiado 
-ajustado \n—empate.
+["1","BUSCAR Y DESTRUIR / SEEK AND DESTROY",`OBJETIVO
 
-\n\nDESPLIEGUE\nZona: Tirar en tabla. Tipo: Tirar en tabla.\n\nREGLAS ESPECIALES\n
+El objetivo es simple: ambos bandos deben infligir el mayor daño posible al enemigo mientras preservan sus propias fuerzas.
+
+PUNTUACIÓN
+
+1 punto por cada unidad enemiga destruida. Al final de la partida, suma los puntos de victoria según lo indicado.
+
+Si un jugador tiene al menos 2 puntos más que el otro, se considera una victoria clara. En caso contrario, el resultado se considera demasiado ajustado: empate.
+
+DESPLIEGUE
+
+Zona: Tirar en tabla.
+Tipo: Tirar en tabla.
+
+REGLAS ESPECIALES
+
 Despliegue avanzado: Sí
 Flanqueo: Sí
 Despliegue oculto: No
 Bombardeo preliminar: No`],
+  
 ["2","POSICIONES CLAVE / KEY POSITION",`OBJETIVO\nLos jugadores deben intentar controlar el mayor número posible de objetivos. Un jugador lanza un D3 + 4 — ese será el número de marcadores de objetivo que se usarán en la partida. Deben ser fichas redondas de 25 mm. A
 continuación, ambos jugadores lanzan un dado.
 
