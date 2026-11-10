@@ -7,7 +7,6 @@ El objetivo es simple: ambos bandos deben infligir el mayor daño posible al ene
 
 PUNTUACIÓN:
 1 punto por cada unidad enemiga destruida. Al final de la partida, suma los puntos de victoria según lo indicado.
-
 Si un jugador tiene al menos 2 puntos más que el otro, se considera una victoria clara. En caso contrario, el resultado se considera demasiado ajustado: empate.
 
 DESPLIEGUE:
@@ -24,9 +23,7 @@ Bombardeo preliminar: No`],
 OBJETIVO
 Los jugadores deben intentar controlar el mayor número posible de objetivos.
 Un jugador lanza un D3 + 4 — ese será el número de marcadores de objetivo que se usarán en la partida. Deben ser fichas redondas de 25 mm. A continuación, ambos jugadores lanzan un dado.
-
 El jugador con el resultado más alto coloca un marcador de objetivo en cualquier lugar del campo de batalla. Luego lo hace su oponente. Los jugadores de forma alterna los colocan todos los marcadores.
-
 Todos los marcadores deben colocarse al menos a 12" entre sí y a 6" de cualquier borde de la mesa. Los objetivos no afectan la línea de visión ni el movimiento.
 Para capturar un objetivo, una unidad de infantería o artillería debe terminar su activación a 3" o menos del objetivo, y no puede haber ninguna unidad enemiga de ningún tipo a esa misma distancia. Una vez capturado, márcalo como propio con una miniatura o ficha adecuada. El objetivo permanecerá bajo tu control (Sticky) hasta el final de la partida o hasta que una unidad enemiga lo recapture bajo las mismas condiciones.
 
@@ -72,15 +69,10 @@ Bombardeo preliminar: No`],
 ["4","ALTO SECRETO / TOP SECRET",
  `ESCENARIO
 Primero, coloca el marcador del maletín en el centro de la mesa. Debe ser un marcador redondo de 25 mm, como los utilizados en la misión Posiciones Clave. Los jugadores pueden representarlo con cualquier modelo adecuado, como una caja, paracaídas o miniatura de oficial.
-
 Como las unidades tienen órdenes estrictas de no dañar el maletín, este se considera terreno intransitable (pero no bloquea la línea de visión ni proporciona cobertura, etc.).
-
 Para recoger el maletín, una unidad de infantería debe recibir una orden de Avanzar o Correr y finalizar su movimiento con uno de sus modelos tocando el maletín (o dentro de la sección de edificio que lo contenga).
-
 Esa miniatura recoge inmediatamente el maletín y lo transporta mientras la unidad se mueve. Si muere, el maletín pasa a otra miniatura de la misma unidad. Si la unidad entera es destruida o retirada, el maletín queda atrás y puede ser recogido por otra unidad más adelante.
-
 Si el maletín se pierde en un asalto, la unidad enemiga que haya ganado el combate puede recogerlo de inmediato y colocarlo junto a uno de sus modelos antes de reagruparse.
-
 Si el maletín termina en terreno intransitable (por ejemplo, un edificio en llamas), se puede recuperar entrando en contacto con ese terreno.
 
 Nota: En esta misión, la unidad que lleva el maletín puede abandonar el tablero por el borde de su propia zona de despliegue (DBZ), recibiendo una orden de Avanzar o Correr, y todos sus modelos deben tocar el borde de la DBZ del jugador.
@@ -106,15 +98,13 @@ Despliegue Avanzado: SI
 Flanqueo: SI
 Despliegue Oculto: NO
 Bombardeo Preliminar: NO`],
+ 
 ["5","DEMOLICIÓN/ DEMOLITION.",
  `Después de determinar las zonas y el tipo de despliegue, los jugadores lanzan un dado. El jugador que pierda la tirada coloca su marcador de base dentro de su zona de despliegue, a no más de 20" de la línea central de la mesa. Luego, el otro jugador coloca su base de la misma manera en su lado. Estas bases deben representarse con marcadores redondos de 25 mm, como en la misión Posiciones Clave.
-
 Todas las unidades (incluidos los infiltradores) deben desplegarse al menos a 18" de la base enemiga.
-
 Ambos jugadores deben intentar destruir la base enemiga. Al final de cualquier turno, lanza un dado por cada una de tus unidades de infantería o artillería que no esté Down ni embarcada en un vehículo y que se encuentre a 3" o menos de la base enemiga (incluso si hay unidades enemigas también dentro de ese rango).
 
 Con un resultado de 4+, la base queda destruida.
-
 Modificadores a la tirada:
 • +1 si la unidad es Veterana o de Ingenieros (acumulativo).
 • -1 si la unidad es Inexperta.
@@ -140,13 +130,10 @@ Avanzado
 Flanqueo Despliegue Oculto Bombardeo
 Preliminar`],
 
- 
 ["6","RESISTIR HASTA SER RELEVADO/ HOLD UNTIL RELIEVED",
- `Escenario:
+ `ESCENARIO:
 Coloca un marcador de objetivo (como en Posiciones Clave) en el centro de la mesa para representar este objetivo estratégico. El marcador debe tener un tamaño de 25 mm, aunque los organizadores pueden permitir alternativas.
-
 El objetivo es controlar ese marcador al final de la partida.
-
 Para controlar el objetivo, una de tus unidades de infantería o artillería debe terminar su activación a 3" o menos del marcador, y no debe haber ninguna unidad enemiga de ningún tipo dentro de ese mismo rango(Stiky).
 
 CONDICIONES DE VICTORIA:
@@ -162,6 +149,7 @@ Avanzado
 Flanqueo Despliegue Oculto Bombardeo
 Preliminar
 SI SI NO NO`],
+ 
 ["7","DOBLE ENVOLVIMIENTO/ ENVELOPMENT",
  `ESCENARIO:
 Ambos jugadores lanzan un dado. El jugador con el resultado más alto elige si
@@ -386,177 +374,122 @@ Niebla de guerra/Combate confuso: Todas las unidades que entren desde reserva pu
  
 ["13","COLINA DEL DESCONSUELO",
  `ESCENARIO:
-
 Esta misión utiliza tres marcadores de objetivo de 25 mm. Primero, coloca un objetivo en el centro de la mesa. Luego, ambos jugadores lanzan un dado. El jugador con el resultado más alto elige si desea ser atacante o defensor.
-
 El defensor elige un cuarto de la mesa y coloca uno de los dos objetivos restantes en ese cuadrante. Debe colocarse a al menos 15" del centro de la mesa y a 6" de cualquier borde.
-
 Luego, el atacante coloca el objetivo restante en el cuadrante diagonal opuesto, también al menos a 15” del centro y a 6” de los bordes.
-
 A continuación, el defensor debe desplegar en su cuadrante:
 *Una unidad de infantería, y
 *Una unidad de infantería o artillería
-
 Ambas al menos a 12" del centro de la mesa.
-
 Luego, el defensor designa hasta la mitad del resto de su ejército para que llegue en su primera oleada. El resto queda en reserva.
-
 El atacante hace lo mismo en su cuadrante.
-
 Durante el Turno 1, ambos jugadores deben introducir su primera oleada en la mesa.
 
-Duracion:
-
+DURACIÓN:
 La partida dura 6 turnos. Al final del turno 6, lanza un dado:
  Con un 4, 5 o 6, se juega un turno adicional.
  Con un 1, 2 o 3, la partida termina.
 
 PUNTUACIÓN:
-
 Al final del juego, los jugadores puntúan:
 • 1 punto por cada dado de orden enemigo perdido
 • 1 punto por controlar el objetivo en su propia zona de despliegue
 • 5 puntos por el objetivo central
 • 10 puntos por el objetivo en la zona de despliegue del oponente
-
 Si un jugador termina con 3 o más puntos de ventaja, gana. En caso contrario, el resultado es empate.
 
 Para controlar un objetivo, una unidad debe ser:
 *De infantería o artillería
 *Estar a 3" o menos del borde del objetivo
-
 No puede haber miniaturas enemigas de ningún tipo dentro de ese mismo rango.
-
 Los vehículos no pueden controlar objetivos, pero sí pueden negarlos si están a 3” del borde.
 
 TIPO DE DESPLIEGUE :
-
 Zona de Despliegue Tipo de Despliegue
-
 Cuadrantes Encuentro comprometido / 1ª oleada + Reservas
 
 REGLAS ESPECIALES:
-
 Despliegue avanzado: SI
-
 Flanqueo: SI
-
 Despliegue oculto: SI
-
 Bombardeo preliminar: NO`],
 
 ["14","NUTS / COJO**ES",
  `ESCENARIO:
-
 Esta misión utiliza cinco marcadores de objetivo de 25 mm.
-
 1. Primero, coloca un objetivo en el centro de la mesa.
 2. Luego, ambos jugadores lanzan un dado. El jugador con el resultado más alto elige un cuadrante de la mesa y coloca uno de los cuatro objetivos restantes en ese cuadrante.
 3. Los jugadores se turnan para colocar los tres objetivos restantes, uno en cada cuadrante.
 
 Cada objetivo debe colocarse:
-
 Al menos a 6" de cualquier borde de la mesa
-
 Al menos a 12" de cualquier otro objetivo
-
 Una vez colocados todos los objetivos, ambos jugadores vuelven a lanzar un dado. El ganador elige si quiere ser atacante o defensor.
-
 El defensor elige un lado de la mesa y despliega hasta la mitad de sus fuerzas (redondeando hacia arriba) a 6" o menos de su borde de mesa.
-
 El resto de sus unidades va a reserva.
-
 El atacante despliega de la misma forma.
 
-DURACION:
-
+DURACIÓN:
 La partida dura 6 turnos. Al final del turno 6, lanza un dado:
 - Con un 4, 5 o 6, se juega un turno adicional
 - Con un 1, 2 o 3, la partida termina
 
 PUNTUACIÓN:
-
  El jugador que controle más objetivos al final del juego, gana.
  Si ambos controlan el mismo número de objetivos (o ninguno), el resultado es empate.
 
 Para controlar un objetivo, se requiere:
-
 - Tener una unidad de infantería, artillería, o transporte con tropas embarcadas
 - A 3" o menos del borde del objetivo Ninguna unidad enemiga de ningún tipo puede estar a esa misma distancia del objetivo
 
 TIPO DE DESPLIEGUE :
-
 Zona de Despliegue Tipo de Despliegue
-
 Borde Largo Posiciones preparadas+Reservas
 
 REGLAS ESPECIALES:
-
 Despliegue avanzado: SI
-
 Flanqueo: SI
-
 Despliegue oculto: SI
-
 Bombardeo preliminar: NO`],
 
 ["15","CONTROLAR Y MANTENER",
  `ESCENARIO:
-
 Ambos jugadores lanzan un dado. El jugador con el resultado más alto elige si quiere ser atacante o defensor.
-
 Comenzando por el defensor, ambos jugadores colocan por turnos un objetivo en su propio cuadrante y luego uno en el cuadrante del oponente.
-
 Todos los objetivos deben colocarse cumpliendo estas condiciones: Al menos a 8" de cualquier borde de la mesa
-
 A 8" de la línea central
-
 10. A 8"de cualquier otro objetivo
 
 DESPLIEGUE:
-
 Tras colocar los objetivos:
-
 El defensor, seguido del atacante, elige la mitad de su ejército (redondeando hacia abajo) para dejarlo en reserva.
-
 El resto se despliega en sus respectivas zonas de despliegue, al menos a 12" del centro de la mesa.
-
 Comenzando por el defensor, los jugadores se turnan para desplegar una unidad sobre la mesa cada vez, hasta que todas estén colocadas.
-
 Después se resuelven los despliegues avanzados, y las unidades en reserva llegarán más tarde durante la partida.
 
 DURACIÓN:
-
-La partida dura 6 turnos. Al final del turno 6, lanza un dado: Con un 1, 2 o 3, la partida termina.
-
+La partida dura 6 turnos. Al final del turno 6, lanza un dado: 
+Con un 1, 2 o 3, la partida termina.
 Con un 4, 5 o 6, se juega un turno adicional.
 
 PUNTUACIÓN:
-
 • Cada objetivo controlado vale 3 puntos
 • Cada unidad enemiga destruida vale 1 punto
 • Cada unidad enemiga blindada destruida vale 2 puntosAl final de la partida, los jugadores suman sus puntos.
 
 Si un jugador tiene 2 puntos o más de ventaja, gana. En caso contrario, es un empate.
-
 Solo las unidades de infantería y artillería desmontadas pueden capturar objetivos.
-
 Los objetivos se consideran disputados si hay una unidad de infantería o artillería desmontada enemiga a 3" del borde del objetivo.
 
 TIPO DE DESPLIEGUE :
-
-Zona de Despliegue Tipo de Despliegue
-
-Borde Largo Posiciones preparadas ADAPTADO+Reservas
+Zona de Despliegue: Borde Largo
+Tipo de Despliegue: Posiciones preparadas
+ADAPTADO+Reservas
 
 REGLAS ESPECIALES:
-
 Despliegue avanzado: SI
-
 Flanqueo: SI
-
 Despliegue oculto: SI
-
 Bombardeo preliminar: NO`],
 
 ["16","OBJETIVOS PRECISOS/ TIMELY OBJECTIVES",
@@ -579,7 +512,7 @@ Con 4, 5 o 6, se juega un turno adicional
 Con 1, 2 o 3, la partida termina
 
 PUNTUACIÓN:
-1 punto por cada objetivo controlado al final de un turno
+1 punto por cada objetivo controlado al final de un turno.
 Al final de la partida, suma todos los puntos acumulados durante los turnos.
 Si un jugador tiene 2 o más puntos más que su oponente, gana. Si no, la partida termina en empate.
 Solo las unidades de infantería y artillería desmontada pueden controlar objetivos.
