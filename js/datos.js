@@ -1,7 +1,10 @@
 const scenarioGroups = {
 "ESCENARIOS JUEGO BASE": [],
 "PACK MISIONES 26 27": [
-["1","BUSCAR Y DESTRUIR / SEEK AND DESTROY",`OBJETIVO\nAmbos bandos intentan infligir el máximo daño posible al enemigo y preservar sus propias fuerzas.\n\nPUNTUACIÓN Y VICTORIA\n1 punto por cada unidad enemiga destruida. Si un jugador obtiene al menos 2 puntos más que su rival, consigue una victoria clara. En caso contrario, empate.\n\nDESPLIEGUE\nZona: Tirar en tabla. Tipo: Tirar en tabla.\n\nREGLAS ESPECIALES\nDespliegue avanzado: Sí
+["1","BUSCAR Y DESTRUIR / SEEK AND DESTROY",`OBJETIVO\nAmbos bandos intentan infligir el máximo daño posible al enemigo y preservar sus propias fuerzas.
+\n\nPUNTUACIÓN Y VICTORIA\n1 punto por cada unidad enemiga destruida. Si un jugador obtiene al menos 2 puntos más que su rival, consigue una victoria clara. En caso contrario, empate.\n\nDESPLIEGUE\nZona: Tirar en tabla. Tipo: Tirar en tabla.\n\nREGLAS ESPECIALES\n
+
+Despliegue avanzado: Sí
 Flanqueo: Sí
 Despliegue oculto: No
 Bombardeo preliminar: No`],
