@@ -69,21 +69,99 @@ Despliegue oculto: No
 Bombardeo preliminar: No`],
 
  
-["4","ALTO SECRETO / TOP SECRET",`OBJETIVO\nColoca un marcador de maletín de 25 mm en el centro de la mesa. Se considera terreno intransitable, pero no bloquea línea de visión ni proporciona cobertura.\n\nUna unidad de infantería puede recogerlo mediante Avanzar o Correr y terminar tocándolo, o entrando en la sección de edificio que lo contenga. El marcador viaja con la unidad. Si muere el portador, otro modelo de la misma unidad lo recoge; si la unidad es destruida o retirada, queda en el lugar. Si se pierde en un asalto, la unidad vencedora puede recogerlo inmediatamente. Si queda en terreno intransitable, se recupera tocando ese terreno.\n\nEl portador puede salir por el borde de su propia DBZ mediante Avanzar o Correr, con todos los modelos tocando el borde. Todas las unidades, incluidos infiltradores, deben desplegarse a más de 12” del maletín o edificio. No se puede recoger en turno 1 salvo desembarcando de un transporte suficientemente próximo.\n\nVICTORIA (elegir una modalidad; no combinar)\nCasual: gana quien se lleva el objetivo; si nadie lo consigue, empate.\nTorneo/Liga: 1 punto por unidad destruida y 5 puntos por destruir la base enemiga.\n\nDESPLIEGUE\nZona: Tirar en tabla
-Tipo: Tirar en tabla.\n\nREGLAS ESPECIALES\nDespliegue avanzado: Sí
-Flanqueo: Sí
-Despliegue oculto: No
-Bombardeo preliminar: No`],
-["5","DEMOLICIÓN / DEMOLITION",`PREPARACIÓN\nTras determinar zonas y tipo de despliegue, ambos jugadores tiran. El perdedor coloca un marcador de base en su DBZ, a no más de 20” de la línea central. El otro jugador hace lo mismo. Marcadores redondos de 25 mm.\n\nTodas las unidades, incluidos infiltradores, deben desplegarse al menos a 18” de la base enemiga.\n\nDESTRUIR LA BASE\nAl final de cualquier turno, cada unidad propia de infantería o artillería que no esté Down ni embarcada y esté a 3” o menos de la base enemiga puede tirar un dado, incluso si hay enemigos a esa distancia. Con 4+ destruye la base. Modificadores: +1 Veterano o Ingenieros (acumulativos); -1 Inexperto.\n\nVICTORIA (elegir una modalidad; no combinar)\nCasual: gana quien destruye la base enemiga; la partida termina ese turno. Empate si ninguno la destruye o ambos lo hacen en el mismo turno.\nTorneo/Liga: 1 punto por unidad destruida y 5 puntos por destruir la base enemiga.\n\nDESPLIEGUE\nZona: Tirar en tabla
-Tipo: Tirar en tabla.\n\nREGLAS ESPECIALES\nDespliegue avanzado: Sí
-Flanqueo: Sí
-Despliegue oculto: No
-Bombardeo preliminar: No`],
-["6","RESISTIR HASTA SER RELEVADO / HOLD UNTIL RELIEVED",`OBJETIVO\nColoca un marcador de 25 mm en el centro de la mesa. Debe controlarse al final de la partida.\n\nCONTROL\nUna unidad de infantería o artillería debe terminar su activación a 3” o menos y no puede haber enemigos de ningún tipo a esa distancia. El control es Sticky.\n\nVICTORIA\nGana quien controle el objetivo central al final de la partida.\n\nDESPLIEGUE\nZona: Tirar en tabla
-Tipo: Tirar en tabla.\n\nREGLAS ESPECIALES\nDespliegue avanzado: Sí
-Flanqueo: Sí
-Despliegue oculto: No
-Bombardeo preliminar: No`],
+["4","ALTO SECRETO / TOP SECRET",["4","ALTO SECRETO/ TOP SECRET",
+ `ESCENARIO
+Primero, coloca el marcador del maletín en el centro de la mesa. Debe ser un marcador redondo de 25 mm, como los utilizados en la misión Posiciones Clave. Los jugadores pueden representarlo con cualquier modelo adecuado, como una caja, paracaídas o miniatura de oficial.
+
+Como las unidades tienen órdenes estrictas de no dañar el maletín, este se considera terreno intransitable (pero no bloquea la línea de visión ni proporciona cobertura, etc.).
+
+Para recoger el maletín, una unidad de infantería debe recibir una orden de Avanzar o Correr y finalizar su movimiento con uno de sus modelos tocando el maletín (o dentro de la sección de edificio que lo contenga).
+
+Esa miniatura recoge inmediatamente el maletín y lo transporta mientras la unidad se mueve. Si muere, el maletín pasa a otra miniatura de la misma unidad. Si la unidad entera es destruida o retirada, el maletín queda atrás y puede ser recogido por otra unidad más adelante.
+
+Si el maletín se pierde en un asalto, la unidad enemiga que haya ganado el combate puede recogerlo de inmediato y colocarlo junto a uno de sus modelos antes de reagruparse.
+
+Si el maletín termina en terreno intransitable (por ejemplo, un edificio en llamas), se puede recuperar entrando en contacto con ese terreno.
+
+Nota: En esta misión, la unidad que lleva el maletín puede abandonar el tablero por el borde de su propia zona de despliegue (DBZ), recibiendo una orden de Avanzar o Correr, y todos sus modelos deben tocar el borde de la DBZ del jugador.
+
+Además, todas las unidades, incluidos los infiltradores, deben desplegarse a mas de 12" de distancia del maletín (o del edificio donde se encuentre), por lo que no pueden capturarlo en el turno 1, a menos que desembarquen desde un transporte que se haya acercado lo suficiente.
+
+CONDICIONES DE VICTORIA:
+Para facilitar a jugabilidad aportamos las dos opciones existente según la situación se escogera una u otra opción de victoria, NUNCA AMBAS.
+
+-OPCION 1 PARTIDAS CASUALES.
+• Aquel que saque el objetivo gana, sino es empate.
+
+-OPCION 2 PUNTUACION PARA TORNEOS Y LIGAS
+• 1 Puntos unidad destruida
+• 5 Puntos por destruir la base enemiga
+
+TIPO DE DESPLIEGUE :
+Zona de Despliegue Tipo de Despliegue
+Tirar en tabla Tirar en Tabla
+
+REGLAS ESPECIALES:
+Despliegue Avanzado: SI
+Flanqueo: SI
+Despliegue Oculto: NO
+Bombardeo Preliminar: NO`],
+["5","DEMOLICIÓN/ DEMOLITION.",
+ `Después de determinar las zonas y el tipo de despliegue, los jugadores lanzan un dado. El jugador que pierda la tirada coloca su marcador de base dentro de su zona de despliegue, a no más de 20" de la línea central de la mesa. Luego, el otro jugador coloca su base de la misma manera en su lado. Estas bases deben representarse con marcadores redondos de 25 mm, como en la misión Posiciones Clave.
+
+Todas las unidades (incluidos los infiltradores) deben desplegarse al menos a 18" de la base enemiga.
+
+Ambos jugadores deben intentar destruir la base enemiga. Al final de cualquier turno, lanza un dado por cada una de tus unidades de infantería o artillería que no esté Down ni embarcada en un vehículo y que se encuentre a 3" o menos de la base enemiga (incluso si hay unidades enemigas también dentro de ese rango).
+
+Con un resultado de 4+, la base queda destruida.
+
+Modificadores a la tirada:
+• +1 si la unidad es Veterana o de Ingenieros (acumulativo).
+• -1 si la unidad es Inexperta.
+
+CONDICIONES DE VICTORIA:
+Para facilitar a jugabilidad aportamos las dos opciones existente según la situación se escogerá una u otra opción de victoria, NUNCA AMBAS.
+
+-OPCION 1 PARTIDAS CASUALES.
+• Victoria si un jugador destruye la base enemiga (la partida acaba en ese turno)
+• Empate si ninguno captura la base enemiga o si ambos destruyen la base enemiga en el mismo turno
+
+-OPCION 2 PUNTUACION PARA TORNEOS Y LIGAS
+• 1 Puntos unidad destruida
+• 5 Puntos por destruir la base enemiga
+
+TIPO DE DESPLIEGUE :
+Zona de Despliegue Tipo de Despliegue
+Tirar en tabla Tirar en Tabla
+
+REGLAS ESPECIALES:
+Despliegue
+Avanzado
+Flanqueo Despliegue Oculto Bombardeo
+Preliminar`],
+
+ 
+["6","RESISTIR HASTA SER RELEVADO/ HOLD UNTIL RELIEVED",
+ `Escenario:
+Coloca un marcador de objetivo (como en Posiciones Clave) en el centro de la mesa para representar este objetivo estratégico. El marcador debe tener un tamaño de 25 mm, aunque los organizadores pueden permitir alternativas.
+
+El objetivo es controlar ese marcador al final de la partida.
+
+Para controlar el objetivo, una de tus unidades de infantería o artillería debe terminar su activación a 3" o menos del marcador, y no debe haber ninguna unidad enemiga de ningún tipo dentro de ese mismo rango(Stiky).
+
+CONDICIONES DE VICTORIA:
+Aquel que controle el objetivo central.
+
+TIPO DE DESPLIEGUE :
+Zona de Despliegue Tipo de Despliegue
+Tirar en tabla Tirar en Tabla
+
+REGLAS ESPECIALES:
+Despliegue
+Avanzado
+Flanqueo Despliegue Oculto Bombardeo
+Preliminar
+SI SI NO NO`],
 ["7","DOBLE ENVOLVIMIENTO / ENVELOPMENT",`PREPARACIÓN Y OBJETIVO\nLos jugadores tiran; el resultado más alto elige atacante o defensor. El atacante intenta introducir unidades en la DBZ del defensor o sacarlas por el borde enemigo; el defensor debe detenerlo.\n\nEl turno 1 el atacante introduce su primera oleada. La partida dura 6 turnos; al final del turno 6, con 1–3 termina y con 4–6 se juega un turno adicional.\n\nPUNTUACIÓN\nAtacante: 1 punto por unidad enemiga destruida; 2 puntos por cada unidad propia que termine dentro de la DBZ defensora, aunque sea parcialmente; 3 puntos por cada unidad propia que salga por el borde enemigo con todos sus modelos tocándolo.\nDefensor: 2 puntos por cada unidad enemiga destruida.\nUna diferencia de 2 puntos o más supone victoria clara; si no, empate.\n\nDESPLIEGUE\nDefensor: elige lado y despliega al menos la mitad de sus unidades en su DBZ; puede usar Despliegue Oculto. El resto queda en reserva.\nAtacante: no despliega al inicio; elige al menos la mitad de su fuerza como primera oleada (puede elegir todas); el resto queda en reserva.\n\nREGLAS ESPECIALES\nDespliegue avanzado: Sí
 Flanqueo: Sí
 Despliegue oculto: solo defensor
