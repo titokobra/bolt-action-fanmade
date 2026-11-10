@@ -21,7 +21,7 @@ enemiga de ningún tipo a esa misma distancia. Una vez capturado, márcalo
 como propio con una miniatura o ficha adecuada. El objetivo permanecerá bajo
 tu control (Sticky) hasta el final de la partida o hasta que una unidad enemiga
 lo recapture bajo las mismas condiciones.
-PUNTUACIÓN:
+\n\nPUNTUACIÓN:\n
 Al final de la partida, si controlas más objetivos que tu oponente, ganas. En
 caso contrario, el resultado es empate.
 Tipo: Tirar en tabla.\n\nREGLAS ESPECIALES\nDespliegue avanzado: Sí
