@@ -44,11 +44,31 @@ Flanqueo: Sí
 Despliegue oculto: No
 Bombardeo preliminar: No`],
   
-["3","RUPTURA / BREAKTHROUGH",`OBJETIVO\nIntroducir unidades en la zona de despliegue enemiga (DBZ) o sacarlas de la mesa por el borde enemigo. Una unidad puede salir deliberadamente por ese borde mediante una orden de Avanzar o Correr; todos sus modelos deben tocar el borde.\n\nREGLAS DE ESCENARIO\nNo se permiten reservas. Si se obtiene Niebla de Guerra al determinar el despliegue, se vuelve a tirar.\n\nPUNTUACIÓN\n1 punto por cada unidad completamente dentro de la DBZ enemiga. 3 puntos por cada unidad que abandone la mesa por el borde enemigo con todos sus modelos tocando el borde. Una diferencia de 2 puntos o más supone victoria clara; si no, empate.\n\nDESPLIEGUE\nZona: Tirar en tabla
-Tipo: Tirar en tabla. Niebla de Guerra: no permitida · Reservas: no permitidas.\n\nREGLAS ESPECIALES\nDespliegue avanzado: Sí
+["3","RUPTURA / BREAKTHROUGH",`
+OBJETIVO:
+Ambos jugadores deben intentar mover la mayor cantidad posible de sus unidades fuera del campo de batalla a través el borde de la Zona de Despliegue enemiga (abreviado como DBZ), tal como se muestra en los mapas de la página 169, o al menos entrar en dichazona enemiga.
+
+Nota: En este escenario, las unidades pueden salir deliberadamente por el borde de la DBZ enemiga. Para hacerlo, la unidad debe recibir una orden de Avanzar o Correr, y todos los modelos de la unidad deben moverse hasta quedar en contacto con el borde de la DBZ enemiga.
+
+Importante: En Avance Decisivo, no se permite mantener unidades en reserva (ver página 172). Por tanto, si al tirar para determinar el tipo de despliegue obtienes un resultado de “Niebla de Guerra”, deberás repetir la tirada hasta obtener un resultado distinto.
+
+PUNTUACIÓN:
+• 1 Punto de Victoria por cada una de tus unidades que termine
+completamente dentro de la zona de despliegue enemiga.
+• 3 Puntos de Victoria por cada una de tus unidades que salga del tablero
+por cualquier borde de la DZ enemiga. Deben llegar todas las miniaturas
+de la unidad al borde para poder salir.
+Al final de la partida, suma los Puntos de Victoria según lo indicado. Si un
+jugador tiene al menos 2 puntos más que su oponente, se considera una
+victoria clara. En caso contrario, es un empate.
+
+REGLAS ESPECIALES
+Despliegue avanzado: Sí
 Flanqueo: Sí
 Despliegue oculto: No
 Bombardeo preliminar: No`],
+
+ 
 ["4","ALTO SECRETO / TOP SECRET",`OBJETIVO\nColoca un marcador de maletín de 25 mm en el centro de la mesa. Se considera terreno intransitable, pero no bloquea línea de visión ni proporciona cobertura.\n\nUna unidad de infantería puede recogerlo mediante Avanzar o Correr y terminar tocándolo, o entrando en la sección de edificio que lo contenga. El marcador viaja con la unidad. Si muere el portador, otro modelo de la misma unidad lo recoge; si la unidad es destruida o retirada, queda en el lugar. Si se pierde en un asalto, la unidad vencedora puede recogerlo inmediatamente. Si queda en terreno intransitable, se recupera tocando ese terreno.\n\nEl portador puede salir por el borde de su propia DBZ mediante Avanzar o Correr, con todos los modelos tocando el borde. Todas las unidades, incluidos infiltradores, deben desplegarse a más de 12” del maletín o edificio. No se puede recoger en turno 1 salvo desembarcando de un transporte suficientemente próximo.\n\nVICTORIA (elegir una modalidad; no combinar)\nCasual: gana quien se lleva el objetivo; si nadie lo consigue, empate.\nTorneo/Liga: 1 punto por unidad destruida y 5 puntos por destruir la base enemiga.\n\nDESPLIEGUE\nZona: Tirar en tabla
 Tipo: Tirar en tabla.\n\nREGLAS ESPECIALES\nDespliegue avanzado: Sí
 Flanqueo: Sí
