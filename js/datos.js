@@ -1,46 +1,49 @@
 const scenarioGroups = {
 "ESCENARIOS JUEGO BASE": [],
 "PACK MISIONES 26 27": [
-["1","BUSCAR Y DESTRUIR / SEEK AND DESTROY",`OBJETIVO
-
+["1","BUSCAR Y DESTRUIR / SEEK AND DESTROY",
+ `OBJETIVO
 El objetivo es simple: ambos bandos deben infligir el mayor daño posible al enemigo mientras preservan sus propias fuerzas.
 
-PUNTUACIÓN
-
+PUNTUACIÓN:
 1 punto por cada unidad enemiga destruida. Al final de la partida, suma los puntos de victoria según lo indicado.
 
 Si un jugador tiene al menos 2 puntos más que el otro, se considera una victoria clara. En caso contrario, el resultado se considera demasiado ajustado: empate.
 
-DESPLIEGUE
-
+DESPLIEGUE:
 Zona: Tirar en tabla.
 Tipo: Tirar en tabla.
 
 REGLAS ESPECIALES
-
 Despliegue avanzado: Sí
 Flanqueo: Sí
 Despliegue oculto: No
 Bombardeo preliminar: No`],
   
-["2","POSICIONES CLAVE / KEY POSITION",`OBJETIVO\nLos jugadores deben intentar controlar el mayor número posible de objetivos. Un jugador lanza un D3 + 4 — ese será el número de marcadores de objetivo que se usarán en la partida. Deben ser fichas redondas de 25 mm. A
-continuación, ambos jugadores lanzan un dado.
+["2","POSICIONES CLAVE / KEY POSITION",`
+OBJETIVO
+Los jugadores deben intentar controlar el mayor número posible de objetivos.
+Un jugador lanza un D3 + 4 — ese será el número de marcadores de objetivo que se usarán en la partida. Deben ser fichas redondas de 25 mm. A continuación, ambos jugadores lanzan un dado.
 
 El jugador con el resultado más alto coloca un marcador de objetivo en cualquier lugar del campo de batalla. Luego lo hace su oponente. Los jugadores de forma alterna los colocan todos los marcadores.
+
 Todos los marcadores deben colocarse al menos a 12" entre sí y a 6" de cualquier borde de la mesa. Los objetivos no afectan la línea de visión ni el movimiento.
-Para capturar un objetivo, una unidad de infantería o artillería debe terminar su
-activación a 3" o menos del objetivo, y no puede haber ninguna unidad
-enemiga de ningún tipo a esa misma distancia. Una vez capturado, márcalo
-como propio con una miniatura o ficha adecuada. El objetivo permanecerá bajo
-tu control (Sticky) hasta el final de la partida o hasta que una unidad enemiga
-lo recapture bajo las mismas condiciones.
-\n\nPUNTUACIÓN:\n
+Para capturar un objetivo, una unidad de infantería o artillería debe terminar su activación a 3" o menos del objetivo, y no puede haber ninguna unidad enemiga de ningún tipo a esa misma distancia. Una vez capturado, márcalo como propio con una miniatura o ficha adecuada. El objetivo permanecerá bajo tu control (Sticky) hasta el final de la partida o hasta que una unidad enemiga lo recapture bajo las mismas condiciones.
+
+PUNTUACIÓN:
 Al final de la partida, si controlas más objetivos que tu oponente, ganas. En
 caso contrario, el resultado es empate.
-Tipo: Tirar en tabla.\n\nREGLAS ESPECIALES\nDespliegue avanzado: Sí
+
+DESPLIEGUE:
+Zona: Tirar en tabla.
+Tipo: Tirar en tabla.
+
+REGLAS ESPECIALES
+Despliegue avanzado: Sí
 Flanqueo: Sí
 Despliegue oculto: No
 Bombardeo preliminar: No`],
+  
 ["3","RUPTURA / BREAKTHROUGH",`OBJETIVO\nIntroducir unidades en la zona de despliegue enemiga (DBZ) o sacarlas de la mesa por el borde enemigo. Una unidad puede salir deliberadamente por ese borde mediante una orden de Avanzar o Correr; todos sus modelos deben tocar el borde.\n\nREGLAS DE ESCENARIO\nNo se permiten reservas. Si se obtiene Niebla de Guerra al determinar el despliegue, se vuelve a tirar.\n\nPUNTUACIÓN\n1 punto por cada unidad completamente dentro de la DBZ enemiga. 3 puntos por cada unidad que abandone la mesa por el borde enemigo con todos sus modelos tocando el borde. Una diferencia de 2 puntos o más supone victoria clara; si no, empate.\n\nDESPLIEGUE\nZona: Tirar en tabla
 Tipo: Tirar en tabla. Niebla de Guerra: no permitida · Reservas: no permitidas.\n\nREGLAS ESPECIALES\nDespliegue avanzado: Sí
 Flanqueo: Sí
