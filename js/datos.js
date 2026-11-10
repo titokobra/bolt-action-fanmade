@@ -2,7 +2,7 @@ const scenarioGroups = {
 "ESCENARIOS JUEGO BASE": [],
 "PACK MISIONES 26 27": [
 ["1","BUSCAR Y DESTRUIR / SEEK AND DESTROY",
- `OBJETIVO
+ `OBJETIVO:
 El objetivo es simple: ambos bandos deben infligir el mayor daño posible al enemigo mientras preservan sus propias fuerzas.
 
 PUNTUACIÓN:
@@ -20,7 +20,7 @@ Despliegue oculto: No
 Bombardeo preliminar: No`],
   
 ["2","POSICIONES CLAVE / KEY POSITION",`
-OBJETIVO
+OBJETIVO:
 Los jugadores deben intentar controlar el mayor número posible de objetivos.
 Un jugador lanza un D3 + 4 — ese será el número de marcadores de objetivo que se usarán en la partida. Deben ser fichas redondas de 25 mm. A continuación, ambos jugadores lanzan un dado.
 El jugador con el resultado más alto coloca un marcador de objetivo en cualquier lugar del campo de batalla. Luego lo hace su oponente. Los jugadores de forma alterna los colocan todos los marcadores.
@@ -35,7 +35,7 @@ DESPLIEGUE:
 Zona: Tirar en tabla.
 Tipo: Tirar en tabla.
 
-REGLAS ESPECIALES
+REGLAS ESPECIALES:
 Despliegue avanzado: Sí
 Flanqueo: Sí
 Despliegue oculto: No
@@ -59,7 +59,7 @@ Al final de la partida, suma los Puntos de Victoria según lo indicado. Si un
 jugador tiene al menos 2 puntos más que su oponente, se considera una
 victoria clara. En caso contrario, es un empate.
 
-REGLAS ESPECIALES
+REGLAS ESPECIALES:
 Despliegue avanzado: Sí
 Flanqueo: Sí
 Despliegue oculto: No
@@ -67,7 +67,7 @@ Bombardeo preliminar: No`],
 
  
 ["4","ALTO SECRETO / TOP SECRET",
- `ESCENARIO
+ `ESCENARIO:
 Primero, coloca el marcador del maletín en el centro de la mesa. Debe ser un marcador redondo de 25 mm, como los utilizados en la misión Posiciones Clave. Los jugadores pueden representarlo con cualquier modelo adecuado, como una caja, paracaídas o miniatura de oficial.
 Como las unidades tienen órdenes estrictas de no dañar el maletín, este se considera terreno intransitable (pero no bloquea la línea de visión ni proporciona cobertura, etc.).
 Para recoger el maletín, una unidad de infantería debe recibir una orden de Avanzar o Correr y finalizar su movimiento con uno de sus modelos tocando el maletín (o dentro de la sección de edificio que lo contenga).
@@ -82,14 +82,14 @@ Además, todas las unidades, incluidos los infiltradores, deben desplegarse a ma
 CONDICIONES DE VICTORIA:
 Para facilitar a jugabilidad aportamos las dos opciones existente según la situación se escogera una u otra opción de victoria, NUNCA AMBAS.
 
--OPCION 1 PARTIDAS CASUALES.
+-OPCIÓN 1 PARTIDAS CASUALES.
 • Aquel que saque el objetivo gana, sino es empate.
 
--OPCION 2 PUNTUACION PARA TORNEOS Y LIGAS
+-OPCIÓN 2 PUNTUACION PARA TORNEOS Y LIGAS
 • 1 Puntos unidad destruida
 • 5 Puntos por destruir la base enemiga
 
-TIPO DE DESPLIEGUE :
+TIPO DE DESPLIEGUE:
 Zona de Despliegue Tipo de Despliegue
 Tirar en tabla Tirar en Tabla
 
@@ -120,15 +120,15 @@ Para facilitar a jugabilidad aportamos las dos opciones existente según la situ
 • 1 Puntos unidad destruida
 • 5 Puntos por destruir la base enemiga
 
-TIPO DE DESPLIEGUE :
+TIPO DE DESPLIEGUE:
 Zona de Despliegue Tipo de Despliegue
 Tirar en tabla Tirar en Tabla
 
 REGLAS ESPECIALES:
-Despliegue
-Avanzado
-Flanqueo Despliegue Oculto Bombardeo
-Preliminar`],
+Despliegue Avanzado: Si
+Flanqueo: Si
+Despliegue Oculto: No 
+Bombardeo Preliminar: No`],
 
 ["6","RESISTIR HASTA SER RELEVADO/ HOLD UNTIL RELIEVED",
  `ESCENARIO:
@@ -144,11 +144,10 @@ Zona de Despliegue Tipo de Despliegue
 Tirar en tabla Tirar en Tabla
 
 REGLAS ESPECIALES:
-Despliegue
-Avanzado
-Flanqueo Despliegue Oculto Bombardeo
-Preliminar
-SI SI NO NO`],
+Despliegue Avanzado: Si
+Flanqueo: Si
+Despliegue Oculto: No 
+Bombardeo Preliminar: No`],
  
 ["7","DOBLE ENVOLVIMIENTO/ ENVELOPMENT",
  `ESCENARIO:
@@ -182,63 +181,50 @@ El atacante no despliega ninguna unidad al inicio del juego. Debe designar al
 menos la mitad de su fuerza como su primera oleada (puede incluir todo el
 ejército si lo desea).
 Las unidades que no están en la primera oleada quedan en reserva.
+
 REGLAS ESPECIALES:
-Despliegue
-Avanzado
-Flanqueo Despliegue Oculto Bombardeo
-Preliminar
-SI SI Solo Defensor Solo Atacante`],
+Despliegue Avanzado: Si
+Flanqueo: Si
+Despliegue Oculto: Solo Defensor 
+Bombardeo Preliminar: Solo Atacante`],
 
 ["8","CAZA HUMANA/ MANHUNT",
  `ESCENARIO:
-Ambos jugadores lanzan un dado. El jugador con el resultado más alto elige si
-desea ser atacante o defensor.
-El objetivo del atacante es capturar al oficial de mayor rango del ejército
-enemigo. Si hay dos o más oficiales del mismo rango, el objetivo será el que
-tenga mayor coste en puntos. Si el coste es igual, ambos jugadores deben
-acordar cuál será el objetivo.
-El defensor debe colocar ese oficial en la mesa — no puede mantenerse en
-reserva.
-Para capturar al oficial, una unidad de infantería debe asaltar la unidad del
-oficial en combate cuerpo a cuerpo y destruirla.
+Ambos jugadores lanzan un dado. El jugador con el resultado más alto elige si desea ser atacante o defensor.
+El objetivo del atacante es capturar al oficial de mayor rango del ejército enemigo. Si hay dos o más oficiales del mismo rango, el objetivo será el que tenga mayor coste en puntos. Si el coste es igual, ambos jugadores deben acordar cuál será el objetivo.
+El defensor debe colocar ese oficial en la mesa — no puede mantenerse en reserva.
+Para capturar al oficial, una unidad de infantería debe asaltar la unidad del oficial en combate cuerpo a cuerpo y destruirla.
 Durante el Turno 1, el atacante debe introducir su primera oleada en la mesa.
+
 La partida dura 6 turnos.
 Al final del turno 6, lanza un dado:
 Con un 1, 2 o 3, la partida termina.
 Con un 4, 5 o 6, se juega un turno adicional.
+
 CONDICIONES DE VICTORIA:
-Para facilitar a jugabilidad aportamos las dos opciones existente según la
-situación se escogerá una u otra opción, NUNCA AMBAS.
+Para facilitar a jugabilidad aportamos las dos opciones existente según la situación se escogerá una u otra opción, NUNCA AMBAS.
+
 -OPCION 1 PARTIDAS CASUALES.
-• Si la unidad del oficial es destruida en combate cuerpo a cuerpo el
-atacante gana
-• Si el juego termina y el oficial sigue vivo e ileso, el defensor gana
-• Si el oficial muere pero no es en cuerpo a cuerpo sera empate
+• Si la unidad del oficial es destruida en combate cuerpo a cuerpo el atacante gana.
+• Si el juego termina y el oficial sigue vivo e ileso, el defensor gana.
+• Si el oficial muere pero no es en cuerpo a cuerpo sera empate.
+
 -OPCION 2 PUNTUACION PARA TORNEOS Y LIGAS
-• 1 Puntos unidad destruida
-• 5 Puntos matar al oficial en cuerpo a cuerpo
+• 1 Puntos unidad destruida.
+• 5 Puntos matar al oficial en cuerpo a cuerpo.
+
 TIPO DE DESPLIEGUE :
-• El defensor elige un lado de la mesa y despliega la mitad de sus unidades
-(redondeando hacia abajo), dentro de un área de 12" alrededor del centro
-de la mesa. Estas unidades pueden usar Despliegue Oculto. Todas las
-unidades restantes se colocan en reserva.
-• El oficial objetivo debe estar entre las unidades desplegadas. Todos los
-vehículos deben ir a reserva.
-• El atacante no despliega ninguna unidad al inicio. Debe seleccionar la mitad
-de sus unidades (redondeando hacia arriba) como su primera oleada. El
-resto queda en reserva.
+• El defensor elige un lado de la mesa y despliega la mitad de sus unidades (redondeando hacia abajo), dentro de un área de 12" alrededor del centro de la mesa. Estas unidades pueden usar Despliegue Oculto. Todas las unidades restantes se colocan en reserva.
+• El oficial objetivo debe estar entre las unidades desplegadas. Todos los vehículos deben ir a reserva.
+• El atacante no despliega ninguna unidad al inicio. Debe seleccionar la mitad de sus unidades (redondeando hacia arriba) como su primera oleada. El resto queda en reserva.
+
 REGLAS ESPECIALES:
-Despliegue
-Avanzado
-Flanqueo Despliegue Oculto Bombardeo
-Preliminar
-SI Niebla de guerra/
-Combate Confuso
-Solo Defensor Solo Atacante
-• Niebla de guerra/Combate confuso: Todas las unidades que entren desde
-reserva pueden hacerlo por cualquier borde de la mesa, excepto por el borde
-desde el que haya entrado la última reserva enemiga ese mismo turno. Al inicio
-del siguiente turno se resetea esta condición.`],
+Despliegue Avanzado: Si
+Flanqueo: Niebla de guerra / Combate Confuso
+Despliegue Oculto: Solo Defensor
+Bombardeo Preliminar: Solo Atacante
+
+• Niebla de guerra/Combate confuso: Todas las unidades que entren desde reserva pueden hacerlo por cualquier borde de la mesa, excepto por el borde desde el que haya entrado la última reserva enemiga ese mismo turno. Al inicio del siguiente turno se resetea esta condición.`],
 
 ["9","GUERRA TOTAL",
  `ESCENARIO:
