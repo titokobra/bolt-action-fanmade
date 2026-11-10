@@ -794,7 +794,7 @@ Despliegue avanzado: SI
 Flanqueo: SI
 Despliegue oculto: NO
 Bombardeo preliminar: NO`],
- 
+]
 };
 const specialRules = {
   "REGLAS DE ARMAS": {
