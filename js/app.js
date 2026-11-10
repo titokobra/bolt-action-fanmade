@@ -21,9 +21,15 @@ function formatClock(ms){
  return [h,m,sec].map(v=>String(v).padStart(2,'0')).join(':');
 }
 function updateGlobalClock(){
- const box=$('#globalClock'),value=$('#clockValue');if(!box||!value)return;
+ const box=$('#globalClock'),value=$('#clockValue');
+ if(!box||!value)return;
+
+ // Mostrar el reloj únicamente al finalizar la partida
+ box.style.display = state.screen === 'winner' ? '' : 'none';
+
  const elapsed=state.timerStartedAt?Date.now()-Number(state.timerStartedAt):0;
  value.textContent=formatClock(elapsed);
+
  box.classList.toggle('warning',elapsed>=105*60*1000&&elapsed<135*60*1000);
  box.classList.toggle('danger',elapsed>=135*60*1000);
 }
