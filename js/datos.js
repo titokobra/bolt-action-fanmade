@@ -18,6 +18,7 @@ Flanqueo: Sí
 Despliegue oculto: No
 Bombardeo preliminar: No`],
 ],
+ 
 "PACK MISIONES 26 27": [
 ["1","BUSCAR Y DESTRUIR / SEEK AND DESTROY",
  `OBJETIVO:
@@ -112,10 +113,10 @@ Zona de Despliegue Tipo de Despliegue
 Tirar en tabla Tirar en Tabla
 
 REGLAS ESPECIALES:
-Despliegue Avanzado: SI
-Flanqueo: SI
-Despliegue Oculto: NO
-Bombardeo Preliminar: NO`],
+Despliegue avanzado: Sí
+Flanqueo: Sí
+Despliegue oculto: No
+Bombardeo preliminar: No`],
  
 ["5","DEMOLICIÓN/ DEMOLITION.",
  `Después de determinar las zonas y el tipo de despliegue, los jugadores lanzan un dado. El jugador que pierda la tirada coloca su marcador de base dentro de su zona de despliegue, a no más de 20" de la línea central de la mesa. Luego, el otro jugador coloca su base de la misma manera en su lado. Estas bases deben representarse con marcadores redondos de 25 mm, como en la misión Posiciones Clave.
@@ -143,10 +144,10 @@ Zona de Despliegue Tipo de Despliegue
 Tirar en tabla Tirar en Tabla
 
 REGLAS ESPECIALES:
-Despliegue Avanzado: Si
-Flanqueo: Si
-Despliegue Oculto: No 
-Bombardeo Preliminar: No`],
+Despliegue avanzado: Sí
+Flanqueo: Sí
+Despliegue oculto: No
+Bombardeo preliminar: No`],
 
 ["6","RESISTIR HASTA SER RELEVADO/ HOLD UNTIL RELIEVED",
  `ESCENARIO:
@@ -162,10 +163,10 @@ Zona de Despliegue Tipo de Despliegue
 Tirar en tabla Tirar en Tabla
 
 REGLAS ESPECIALES:
-Despliegue Avanzado: Si
-Flanqueo: Si
-Despliegue Oculto: No 
-Bombardeo Preliminar: No`],
+Despliegue avanzado: Sí
+Flanqueo: Sí
+Despliegue oculto: No
+Bombardeo preliminar: No`],
  
 ["7","DOBLE ENVOLVIMIENTO/ ENVELOPMENT",
  `ESCENARIO:
@@ -269,11 +270,10 @@ TIPO DE DESPLIEGUE :
 Zona de Despliegue Tipo de Despliegue
 Cuadrantes Posiciones preparadas+Reservas
 REGLAS ESPECIALES:
-Despliegue
-Avanzado
-Flanqueo Despliegue Oculto Bombardeo
-Preliminar
-SI SI SOLO Defensor SOLO Atacante`],
+Despliegue avanzado: Sí
+Flanqueo: Sí
+Despliegue oculto: Solo Defensor
+Bombardeo preliminar: Solo Atacante`],
 
 ["10","PENETRATING STRIKE",
  `ESCENARIO:
@@ -306,11 +306,10 @@ TIPO DE DESPLIEGUE :
 Zona de Despliegue Tipo de Despliegue
 Borde Largo Posiciones preparadas+Reservas
 REGLAS ESPECIALES:
-Despliegue
-Avanzado
-Flanqueo Despliegue Oculto Bombardeo
-Preliminar
-SI SI SI NO`],
+Despliegue avanzado: Sí
+Flanqueo: Sí
+Despliegue oculto: Sí
+Bombardeo preliminar: No`],
 
 ["11","CAPTURAR POSICIONES / LAND GRAB / SECTORES",
  `ESCENARIO:
@@ -346,11 +345,11 @@ TIPO DE DESPLIEGUE :
 Zona de Despliegue Tipo de Despliegue
 Cuadrantes Posiciones preparadas+Reservas
 REGLAS ESPECIALES:
-Despliegue
-Avanzado
-Flanqueo Despliegue Oculto Bombardeo
-Preliminar
-SI NO SI SI`],
+Despliegue avanzado: Sí
+Flanqueo: No
+Despliegue oculto: Sí
+Bombardeo preliminar: Sí`],
+ 
 ["12","¡RODEADOS!/SURROUNDED",
  `ESCENARIO:
 Los jugadores lanzan un dado, aquel con el resultado más alto elige si quiere ser atacante o defensor.
@@ -413,10 +412,10 @@ Zona de Despliegue Tipo de Despliegue
 Cuadrantes Encuentro comprometido / 1ª oleada + Reservas
 
 REGLAS ESPECIALES:
-Despliegue avanzado: SI
-Flanqueo: SI
-Despliegue oculto: SI
-Bombardeo preliminar: NO`],
+Despliegue avanzado: Sí
+Flanqueo: Sí
+Despliegue oculto: Sí
+Bombardeo preliminar: No`],
 
 ["14","NUTS / COJO**ES",
  `ESCENARIO:
@@ -451,10 +450,10 @@ Zona de Despliegue Tipo de Despliegue
 Borde Largo Posiciones preparadas+Reservas
 
 REGLAS ESPECIALES:
-Despliegue avanzado: SI
-Flanqueo: SI
-Despliegue oculto: SI
-Bombardeo preliminar: NO`],
+Despliegue avanzado: Sí
+Flanqueo: Sí
+Despliegue oculto: Sí
+Bombardeo preliminar: No`],
 
 ["15","CONTROLAR Y MANTENER",
  `ESCENARIO:
@@ -491,10 +490,10 @@ Tipo de Despliegue: Posiciones preparadas
 ADAPTADO+Reservas
 
 REGLAS ESPECIALES:
-Despliegue avanzado: SI
-Flanqueo: SI
-Despliegue oculto: SI
-Bombardeo preliminar: NO`],
+Despliegue avanzado: Sí
+Flanqueo: Sí
+Despliegue oculto: Sí
+Bombardeo preliminar: No`],
 
 ["16","OBJETIVOS PRECISOS/ TIMELY OBJECTIVES",
  `ESCENARIO:
@@ -528,10 +527,10 @@ Zona de Despliegue Tipo de Despliegue
 Borde Largo Posiciones preparadas +Reservas
 
 REGLAS ESPECIALES:
-Despliegue avanzado: SI
-Flanqueo: SI
-Despliegue oculto: NO
-Bombardeo preliminar: NO`],
+Despliegue avanzado: Sí
+Flanqueo: Sí
+Despliegue oculto: No
+Bombardeo preliminar: No`],
 
 ["17","OBJETIVO ALFA",
  `ESCENARIO:
@@ -566,10 +565,10 @@ Zona de Despliegue Tipo de Despliegue
 Borde Largo Encuentro comprometido / 1ª oleada + Reservas
 
 REGLAS ESPECIALES:
-Despliegue avanzado: SI
-Flanqueo: SI
-Despliegue oculto: NO
-Bombardeo preliminar: NO`],
+Despliegue avanzado: Sí
+Flanqueo: Sí
+Despliegue oculto: No
+Bombardeo preliminar: No`],
 
 ["18","ROMPIENDO LA LÍNEA",
  `ESCENARIO:
@@ -598,10 +597,10 @@ Zona de Despliegue Tipo de Despliegue
 Borde Largo Encuentro comprometido / 1ª oleada + Reservas
 
 REGLAS ESPECIALES:
-Despliegue avanzado: NO
-Flanqueo: SI
-Despliegue oculto: NO
-Bombardeo preliminar: NO`],
+Despliegue avanzado: No
+Flanqueo: Sí
+Despliegue oculto: No
+Bombardeo preliminar: No`],
  
 ["19","PENETRATING ATTACK",
  `Esta batalla se libra de borde corto a borde corto (no a lo largo, si no a lo ancho de la mesa).
@@ -626,10 +625,10 @@ Zona de Despliegue Tipo de Despliegue
 Borde Corto Posiciones preparadas + reservas
 
 REGLAS ESPECIALES:
-Despliegue avanzado: SI
-Flanqueo: SI
-Despliegue oculto: NO
-Bombardeo preliminar: NO`],
+Despliegue avanzado: Sí
+Flanqueo: Sí
+Despliegue oculto: No
+Bombardeo preliminar: No`],
 
 ["20","PURIFICACIÓN (CLEANSE)",
  `Divide la mesa en cuatro cuadrantes iguales. Coloca un marcador de objetivo en el centro de cada cuadrante. Ambos jugadores lanzan un dado. El jugador con el resultado más alto elige un cuadrante para desplegar. El jugador con el resultado más bajo despliega en el cuadrante opuesto.
@@ -657,10 +656,10 @@ Zona de Despliegue Tipo de Despliegue
 Cuadrantes Posiciones preparadas + reservas
 
 REGLAS ESPECIALES:
-Despliegue avanzado: SI
-Flanqueo: SI
-Despliegue oculto: NO
-Bombardeo preliminar: NO`],
+Despliegue avanzado: Sí
+Flanqueo: Sí
+Despliegue oculto: No
+Bombardeo preliminar: No`],
 
 ["21","GOLPE DE MANO",
  `PREPARACIÓN:
@@ -693,10 +692,10 @@ Zona de Despliegue Tipo de Despliegue
 Borde Largo Encuentro comprometido / 1ª oleada + Reservas
 
 REGLAS ESPECIALES:
-Despliegue avanzado: SI
-Flanqueo: SI
-Despliegue oculto: NO
-Bombardeo preliminar: NO`],
+Despliegue avanzado: Sí
+Flanqueo: Sí
+Despliegue oculto: No
+Bombardeo preliminar: No`],
 
 ["22","TIERRA QUEMADA",
  `Los jugadores deben intentar destruir el mayor número posible de objetivos.
@@ -718,10 +717,10 @@ Zona de Despliegue Tipo de Despliegue
 Borde Largo Encuentro comprometido / 1ª oleada + Reservas
 
 REGLAS ESPECIALES:
-Despliegue avanzado: SI
-Flanqueo: SI
-Despliegue oculto: NO
-Bombardeo preliminar: NO`],
+Despliegue avanzado: Sí
+Flanqueo: Sí
+Despliegue oculto: No
+Bombardeo preliminar: No`],
 
 ["23","DESCABEZAR A LA HIDRA",
  `ESCENARIO:
@@ -747,10 +746,11 @@ Borde Largo Encuentro Comprometido 1º oleada + Reservas
 
 REGLAS ESPECIALES:
 • Niebla de guerra/Combate confuso: Todas las unidades que entren desde reserva pueden hacerlo por cualquier borde de la mesa, excepto por el borde desde el que haya entrado la última reserva enemiga ese mismo turno. Al inicio del siguiente turno se resetea esta condición.
-Despliegue avanzado: SI
+
+Despliegue avanzado: Sí
 Flanqueo: Niebla de guerra/Combate Confuso
-Despliegue oculto: NO
-Bombardeo preliminar: NO`],
+Despliegue oculto: No
+Bombardeo preliminar: No`],
 
 ["24","INFORMACION CRITICA",
  `ESCENARIO:
@@ -773,10 +773,10 @@ Zona de Despliegue Tipo de Despliegue
 Borde Largo Posiciones Preparadas + Reservas
 
 REGLAS ESPECIALES:
-Despliegue avanzado: SI
-Flanqueo: SI
-Despliegue oculto: NO
-Bombardeo preliminar: NO`],
+Despliegue avanzado: Sí
+Flanqueo: Sí
+Despliegue oculto: No
+Bombardeo preliminar: No`],
 
 ["25","COORDENADAS ROMEO SIERRA",
  `Después de determinar las zonas y el tipo de despliegue, los jugadores lanzan un dado. El jugador que pierda la tirada coloca su marcador de base dentro de su zona de despliegue, a no más de 20" de la línea central de la mesa. Luego, el otro jugador coloca su base de la misma manera en su lado. Estas bases deben representarse con marcadores redondos de 25 mm, como en la misión Posiciones Clave.
@@ -794,10 +794,10 @@ Zona de Despliegue Tipo de Despliegue
 Borde Largo Posiciones preparadas + reservas
 
 REGLAS ESPECIALES:
-Despliegue avanzado: SI
-Flanqueo: SI
-Despliegue oculto: NO
-Bombardeo preliminar: NO`],
+Despliegue avanzado: Sí
+Flanqueo: Sí
+Despliegue oculto: No
+Bombardeo preliminar: No`],
 ]
 };
 const specialRules = {
@@ -956,145 +956,54 @@ const baseScenarioNames = [
 ];
 
 const baseScenarioTexts = [
-  `El objetivo es sencillo: ambos bandos deben tratar de infligir
-el máximo daño al otro al tiempo que preservan sus propias
-fuerzas.
-Ganas 1 punto de victoria por cada unidad enemiga
-destruida. Al final de la partida, calcula qué bando ha
-ganado sumando los puntos de victoria como se ha
-descrito anteriormente. Si un bando obtiene al menos 2
-puntos de victoria más que el otro, entonces ese bando
-ha obtenido una clara victoria. En caso contrario, el
-resultado se considera demasiado por los pelos y se
-reparten los honores: ¡empate!`,
-  `El campo de batalla incluye una serie de posiciones que son
-estratégicamente vitales para la continuación de la campaña
-y que deben ser tomadas a toda costa. Los jugadores deben
-intentar capturar el mayor número posible de objetivos.
-Uno de los jugadores tira un D3+4 - este es el número
-de marcadores de objetivo utilizados en este juego - deben
-ser fichas redondas de 25mm de diámetro. A continuación,
-ambos jugadores tiran un dado. El jugador con mayor
-puntuación coloca un marcador de objetivo en cualquier
-lugar de la mesa, luego su oponente coloca un marcador.
-Los jugadores continúan colocando marcadores de objetivo
-hasta que los hayan colocado todos. Todos los marcadores
-de objetivo deben estar a más de 12" unos de otros y a más
-de 6" del borde de la mesa.
-Estos objetivos pueden ser posiciones tácticamente
-importantes, como un edificio o la cima de una colina, o
-suministros, como un depósito de munición o una reserva
-de combustible, o tal vez un puesto de mando, un taller de
-reparación de vehículos o un emplazamiento para artillería
-de largo alcance o lanzacohetes. En términos de juego,
-suponemos que los objetivos son simples marcadores o
-fichas redondas de plástico, pero si los jugadores lo
-prefieren, los objetivos pueden representarse en cambio
-representarse con piezas de escenografía.
-Si deciden hacerlo, lo importante es que los jugadores
-identifiquen claramente los objetivos antes de que comience
-la batalla y qué reglas van a utilizar para ellos (cómo afectan
-a la línea de visión, al movimiento, a la cobertura, etc.).
-Para capturar un objetivo, una de tus unidades de
-infantería o artillería debe terminar su activación a 3" o
-menos del objetivo, y no debe haber ninguna unidad
-enemiga de ningún tipo a 3" o menos del mismo.
-Una vez que hayas capturado un objetivo, márcalo como
-tuyo con una miniatura o ficha adecuada (¡lo ideal es una
-bandera!). Permanecerá bajo tu control hasta el final de la
-partida, o hasta que una unidad enemiga vuelva a
-capturarlo, como se ha descrito anteriormente.
-Al final de la partida, si controlas más objetivos que tu
-adversario, ganas; de lo contrario, la partida queda en tablas.`,
-  `Ambos jugadores deben intentar mover el mayor número de
-sus unidades fuera de la mesa desde el borde de la zona de
-despliegue (BZD para abreviar) del jugador enemigo, como
-se muestra en los mapas de la página 169, o al menos entrar
-en la zona de despliegue enemiga. Nótese que en este
-escenario, se permite a las unidades mover deliberadamente
-fuera de la BZD del jugador enemigo para alcanzar su
-objetivo - para hacerlo, la unidad debe recibir la orden
-de Avanzar o Correr, y entonces todos los modelos de la
-unidad necesitan mover en contacto con la BZD del
-jugador enemigo. Ten en cuenta también que en
-Ruptura, las unidades no pueden ponerse en reserva (ver
-página 172), por lo que si obtienes un resultado de Niebla
-de Guerra para el tipo de despliegue, tendrás que volver a
-tirar el dado hasta que obtengas un nuevo resultado.
-Ganas 3 puntos de victoria por cada unidad tuya que
-haya salido del BZD enemigo antes del final de la partida.
-También ganas 1 punto de victoria por cada unidad
-propia que al final de la partida esté completamente dentro
-de la zona de despliegue enemiga.
-Al final de la partida, calcula qué bando ha ganado
-sumando los puntos de victoria como se ha descrito
-anteriormente. Si un bando obtiene al menos 2 puntos de
-victoria más que el otro, entonces ese bando ha obtenido
-una clara victoria. En caso contrario, el resultado se
-considera demasiado ajustado y se reparten los honores:
-¡empate!`,
-  `Aviones enemigos han derribado uno de nuestros aviones de
-transporte ligero. Nuestros hombres deben localizar el lugar
-del accidente y recuperar el maletín del oficial de Estado
-Mayor de alto rango que iba a bordo. Este maletín contiene
-documentos secretos y es imperativo que lleguemos a él
-antes que el enemigo. Pase lo que pase, estos documentos
-no deben caer en manos enemigas.
-Primero coloca el marcador de maletín en el centro de la
-mesa. Debe ser un marcador redondo de 25 mm de
-diámetro, igual que los marcadores de objetivo en
-Posiciones Clave, más arriba. Como las unidades tienen
-órdenes estrictas de no dañar el maletín, el marcador se trata
-como terreno infranqueable (sin efecto sobre la línea de
-visión, cobertura, etc.). Los jugadores pueden, por supuesto,
-usar un modelo para representar el maletín, como una caja, o
-quizás un paracaídas caído, o cualquier modelo de oficial
-adecuado si se prefiere.
-Para apoderarse del maletín, una unidad de infantería
-debe Avanzar o Correr y terminar su movimiento con una
-miniatura tocando el maletín (u ocupando la sección del
-edificio donde está el maletín). Ese modelo coge
-inmediatamente el maletín y lo llevará mientras su unidad
-mueve.
-Si el modelo que lleva el marcador muere, el marcador
-se transfiere inmediatamente a cualquier otro modelo de la
-unidad. Si toda la unidad es destruida/retirada del juego, el
-maletín se deja allí para que otro lo recoja más tarde.
-Si la unidad que lleva el maletín es destruida en un
-asalto, la unidad enemiga que la destruyó puede reclamar
-inmediatamente el maletín y colocarlo junto a una de sus
-miniaturas antes de hacer su movimiento de
-reagrupamiento.
-Si el maletín acaba alguna vez en terreno infranqueable
-(por ejemplo, se incendia un edificio en el que está), las
-unidades lo recogen moviéndose en contacto con ese
-terreno infranqueable.
-Nótese que en este escenario, la unidad que lleva el
-maletín puede mover deliberadamente fuera de su propio
-borde de zona de despliegue (BZD) - para hacerlo, la
-unidad debe recibir con éxito la orden de Avanzar o Correr,
-y entonces todas las miniaturas de la unidad necesitan
-mover en contacto con su propio BZD. Si una unidad lleva
-el maletín de la mesa, la partida termina inmediatamente y
-ese jugador gana. De lo contrario, el resultado es un empate.
-Ten en cuenta que en este escenario, todas las unidades
-(incluidos los infiltrados, ver página 120) deben desplegarse
-a más de 12" del maletín (o del edificio que lo contiene),
-por lo que no pueden apoderarse de él en el turno 1 de la
-partida, a menos, claro está, que desembarquen de un
-transporte que se haya movido lo suficientemente cerca.`,
+`El objetivo es sencillo: ambos bandos deben tratar de infligir el máximo daño al otro al tiempo que preservan sus propias fuerzas.
+  
+Ganas 1 punto de victoria por cada unidad enemiga destruida. Al final de la partida, calcula qué bando ha ganado sumando los puntos de victoria como se ha
+descrito anteriormente. 
+
+Si un bando obtiene al menos 2 puntos de victoria más que el otro, entonces ese bando ha obtenido una clara victoria. En caso contrario, el resultado se considera demasiado por los pelos y se reparten los honores: ¡empate!`,
+
+`El campo de batalla incluye una serie de posiciones que son estratégicamente vitales para la continuación de la campaña y que deben ser tomadas a toda costa. Los jugadores deben intentar capturar el mayor número posible de objetivos. Uno de los jugadores tira un D3+4 - este es el número de marcadores de objetivo utilizados en este juego - deben ser fichas redondas de 25mm de diámetro. A continuación, ambos jugadores tiran un dado. El jugador con mayor puntuación coloca un marcador de objetivo en cualquier lugar de la mesa, luego su oponente coloca un marcador.
+Los jugadores continúan colocando marcadores de objetivo hasta que los hayan colocado todos. Todos los marcadores de objetivo deben estar a más de 12" unos de otros y a más de 6" del borde de la mesa.
+Estos objetivos pueden ser posiciones tácticamente importantes, como un edificio o la cima de una colina, o suministros, como un depósito de munición o una reserva de combustible, o tal vez un puesto de mando, un taller de reparación de vehículos o un emplazamiento para artillería de largo alcance o lanzacohetes. En términos de juego, suponemos que los objetivos son simples marcadores o fichas redondas de plástico, pero si los jugadores lo prefieren, los objetivos pueden representarse en cambio representarse con piezas de escenografía.
+Si deciden hacerlo, lo importante es que los jugadores identifiquen claramente los objetivos antes de que comience la batalla y qué reglas van a utilizar para ellos (cómo afectan a la línea de visión, al movimiento, a la cobertura, etc.).
+Para capturar un objetivo, una de tus unidades de infantería o artillería debe terminar su activación a 3" o menos del objetivo, y no debe haber ninguna unidad enemiga de ningún tipo a 3" o menos del mismo.
+Una vez que hayas capturado un objetivo, márcalo como tuyo con una miniatura o ficha adecuada (¡lo ideal es una bandera!). Permanecerá bajo tu control hasta el final de la partida, o hasta que una unidad enemiga vuelva a capturarlo, como se ha descrito anteriormente.
+Al final de la partida, si controlas más objetivos que tu adversario, ganas; de lo contrario, la partida queda en tablas.`,
  
-  `Los aviones de reconocimiento han localizado el cuartel general enemigo. Su objetivo es alcanzar la posición enemiga y destruirla. Es de esperar una fuerte resistencia enemiga, por lo que debes atacar con fuerza, pero asegúrate de dejar atrás una parte de tus fuerzas para defender tu propia base de operaciones.
+`Ambos jugadores deben intentar mover el mayor número de sus unidades fuera de la mesa desde el borde de la zona de despliegue (BZD para abreviar) del jugador enemigo, como se muestra en los mapas de la página 169, o al menos entrar en la zona de despliegue enemiga. Nótese que en este escenario, se permite a las unidades mover deliberadamente fuera de la BZD del jugador enemigo para alcanzar su objetivo - para hacerlo, la unidad debe recibir la orden de Avanzar o Correr, y entonces todos los modelos de la unidad necesitan mover en contacto con la BZD del jugador enemigo. 
+  Ten en cuenta también que en Ruptura, las unidades no pueden ponerse en reserva (ver página 172), por lo que si obtienes un resultado de Niebla de Guerra para el tipo de despliegue,  endrás que volver a tirar el dado hasta que obtengas un nuevo resultado. Ganas 3 puntos de victoria por cada unidad tuya que haya salido del BZD enemigo antes del final de la partida.
+También ganas 1 punto de victoria por cada unidad propia que al final de la partida esté completamente dentro de la zona de despliegue enemiga.
+Al final de la partida, calcula qué bando ha ganado sumando los puntos de victoria como se ha descrito anteriormente. 
+Si un bando obtiene al menos 2 puntos de victoria más que el otro, entonces ese bando ha obtenido una clara victoria. En caso contrario, el resultado se considera demasiado ajustado y se reparten los honores: ¡empate!`,
+ 
+`Aviones enemigos han derribado uno de nuestros aviones de transporte ligero. Nuestros hombres deben localizar el lugar del accidente y recuperar el maletín del oficial de Estado Mayor de alto rango que iba a bordo. Este maletín contiene documentos secretos y es imperativo que lleguemos a él antes que el enemigo. Pase lo que pase, estos documentos no deben caer en manos enemigas.
+  
+Primero coloca el marcador de maletín en el centro de la mesa. Debe ser un marcador redondo de 25 mm de diámetro, igual que los marcadores de objetivo en Posiciones Clave, más arriba. Como las unidades tienen órdenes estrictas de no dañar el maletín, el marcador se trata como terreno infranqueable (sin efecto sobre la línea de visión, cobertura, etc.). Los jugadores pueden, por supuesto, usar un modelo para representar el maletín, como una caja, o quizás un paracaídas caído, o cualquier modelo de oficial adecuado si se prefiere.
+
+Para apoderarse del maletín, una unidad de infantería debe Avanzar o Correr y terminar su movimiento con una miniatura tocando el maletín (u ocupando la sección del edificio donde está el maletín). Ese modelo coge inmediatamente el maletín y lo llevará mientras su unidad mueve.
+Si el modelo que lleva el marcador muere, el marcador se transfiere inmediatamente a cualquier otro modelo de la unidad. Si toda la unidad es destruida/retirada del juego, el maletín se deja allí para que otro lo recoja más tarde. Si la unidad que lleva el maletín es destruida en un asalto, la unidad enemiga que la destruyó puede reclamar inmediatamente el maletín y colocarlo junto a una de sus miniaturas antes de hacer su movimiento de reagrupamiento. Si el maletín acaba alguna vez en terreno infranqueable (por ejemplo, se incendia un edificio en el que está), las unidades lo recogen moviéndose en contacto con ese terreno infranqueable.
+
+Nótese que en este escenario, la unidad que lleva el maletín puede mover deliberadamente fuera de su propio borde de zona de despliegue (BZD) - para hacerlo, la unidad debe recibir con éxito la orden de Avanzar o Correr, y entonces todas las miniaturas de la unidad necesitan mover en contacto con su propio BZD. Si una unidad lleva el maletín de la mesa, la partida termina inmediatamente y ese jugador gana. De lo contrario, el resultado es un empate. Ten en cuenta que en este escenario, todas las unidades (incluidos los infiltrados, ver página 120) deben desplegarse a más de 12" del maletín (o del edificio que lo contiene), por lo que no pueden apoderarse de él en el turno 1 de la partida, a menos, claro está, que desembarquen de un transporte que se haya movido lo suficientemente cerca.`,
+ 
+`Los aviones de reconocimiento han localizado el cuartel general enemigo. Su objetivo es alcanzar la posición enemiga y destruirla. Es de esperar una fuerte resistencia enemiga, por lo que debes atacar con fuerza, pero asegúrate de dejar atrás una parte de tus fuerzas para defender tu propia base de operaciones.
+  
 Tras determinar las zonas de despliegue y el tipo de despliegue, los jugadores hacen una tirada enfrentada. El perdedor coloca su peana en su zona de despliegue, a una distancia máxima de 20" de la línea central de la mesa. El otro jugador coloca su peana en su zona de despliegue de la misma manera.
+
 Ten en cuenta que en este escenario, todas las unidades (incluidos los infiltrados) deben desplegarse a más de 18" de la base enemiga.
 Estas "bases" deben ser marcadores redondos de 25 mm de diámetro, al igual que los marcadores de objetivo en Posiciones Clave, página 164. Alternativamente, pueden representarse mediante un modelo de puesto de mando (tienda, trinchera, vehículo de mando, etc.) o elemento similar (por ejemplo, edificio, depósito de combustible, mástil de radio, etc.) - lo importante es que ambos jugadores identifiquen claramente sus bases al comienzo de la partida y qué reglas van a usar para ellas (cómo afectan a la línea de visión, movimiento, cobertura, etc.).
+
 Ambos bandos deben destruir la base de su enemigo. Imagina que las unidades están equipadas con cargas satchel para esta misión.
 Al final de cualquier turno de juego, tira un dado por cada una de tus unidades de infantería o artillería que no esté Down y se encuentre a 3" o menos de la base enemiga (¡incluso si hay una unidad enemiga de cualquier tipo a 3" o menos de ella!). Con una tirada de 4+, la base queda destruida.
 Si al final de cualquier turno de juego se destruye una base, la partida termina inmediatamente. Si un jugador ha destruido la base de su adversario mientras la suya sigue en pie, ese jugador es el ganador. Si ambas bases son destruidas al final del mismo turno, la partida queda empatada.`,
  
-  `Su fuerza ha sido enviada a una misión muy peligrosa para capturar un objetivo estratégico clave. Sus hombres han llegado a las inmediaciones del objetivo estratégico durante la noche
-y al amanecer intentará tomar la posición. A continuación, se atrincherarán ante los inevitables contraataques y aguantarán hasta ser relevados. Coloca un marcador de objetivo (ver posiciones Clave, página 164) en el centro de la mesa para representar este objetivo estratégico. Este objetivo estratégico podría ser un puente, un depósito de munición o combustible, una pista de aterrizaje, un búnker de mando, un punto de lanzamiento de V2, o cualquier cosa comparable. Si los jugadores deciden utilizar un trozo de terreno para representarlo en lugar de un marcador, deberán definir sus reglas y propiedades como se describe para las bases en Demolición (más arriba). El objetivo es controlar el objetivo estratégico al final de la partida. Para controlar el objetivo, una de tus unidades de infantería o artillería debe terminar su activación a menos de 3" del objetivo, y no debe haber ninguna unidad enemiga de ningún tipo a menos de 3" del mismo. Si un bando controla el objetivo estratégico al final de la partida, es el ganador.
+`Su fuerza ha sido enviada a una misión muy peligrosa para capturar un objetivo estratégico clave. Sus hombres han llegado a las inmediaciones del objetivo estratégico durante la noche y al amanecer intentará tomar la posición. 
 
+A continuación, se atrincherarán ante los inevitables contraataques y aguantarán hasta ser relevados. Coloca un marcador de objetivo (ver posiciones Clave, página 164) en el centro de la mesa para representar este objetivo estratégico. Este objetivo estratégico podría ser un puente, un depósito de munición o combustible, una pista de aterrizaje, un búnker de mando, un punto de lanzamiento de V2, o cualquier cosa comparable. Si los jugadores deciden utilizar un trozo de terreno para representarlo en lugar de un marcador, deberán definir sus reglas y propiedades como se describe para las bases en Demolición (más arriba). 
+
+El objetivo es controlar el objetivo estratégico al final de la partida. Para controlar el objetivo, una de tus unidades de infantería o artillería debe terminar su activación a menos de 3" del objetivo, y no debe haber ninguna unidad enemiga de ningún tipo a menos de 3" del mismo. 
+
+Si un bando controla el objetivo estratégico al final de la partida, es el ganador.
 Si ningún bando controla el objetivo, la partida es un empate.`
 ];
 
