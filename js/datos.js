@@ -923,14 +923,14 @@ extrae un dado y el jugador cuyo dado ha sido extraído debe
 desplegar una de sus unidades por completo en su zona de
 despliegue. Continúa haciendo esto hasta que no queden
 dados en la bolsa.`,
-'6': `Ambos jugadores tiran un dado. El jugador con la
+'6': "Ambos jugadores tiran un dado. El jugador con la
 puntuación más alta declara cuáles de sus unidades se dejan
 en reserva (ver página 172 para las reglas sobre reservas) -
 deben ser al menos la mitad de las unidades del ejército del
 jugador, redondeando hacia arriba. El jugador también debe
 declarar qué unidades usan la regla especial Infiltradores y
 qué unidades comienzan la partida montadas en qué
-vehículo de transporte. El otro jugador hace lo mismo.\n
+vehículo de transporte. El otro jugador hace lo mismo.
 A continuación, ambos jugadores ponen un dado de
 orden en la bolsa por cada unidad que no esté en reserva,
 montada en un transporte, o usando la regla Infiltrados, y
@@ -942,7 +942,7 @@ haciendo esto hasta que no queden dados en la bolsa.
 En este juego, el flanqueo no está permitido. En su
 lugar, todas las unidades que entren en la mesa como
 reservas pueden hacerlo desde cualquier punto del borde de la
-mesa que elijan - ¡cuidado!` };
+mesa que elijan - ¡cuidado!" };
 
 const baseScenarioNames = [
  'BUSCAR Y DESTRUIR',
