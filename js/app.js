@@ -335,7 +335,7 @@ function baseScenarioList(){
   <h2>ESCENARIOS JUEGO BASE</h2>
   <p class="deployment-roll-prompt">TIRAR UN DADO D6</p>
   <div class="scenario-list">
-   ${baseScenarioNames.map((name,i=>`
+   ${baseScenarioNames.map((name,i=>)`
     <button data-base-scenario="${i+1}">${i+1}. ${name}</button>
    `).join('')}
   </div>
