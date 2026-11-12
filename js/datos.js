@@ -933,6 +933,7 @@ jugador, redondeando hacia arriba. El jugador también debe
 declarar qué unidades usan la regla especial Infiltradores y
 qué unidades comienzan la partida montadas en qué
 vehículo de transporte. El otro jugador hace lo mismo.
+
 A continuación, ambos jugadores ponen un dado de
 orden en la bolsa por cada unidad que no esté en reserva,
 montada en un transporte, o usando la regla Infiltrados, y
@@ -941,7 +942,8 @@ un dado y el jugador cuyo dado ha sido sacado debe
 desplegar una de sus unidades, como se ha descrito
 anteriormente para Posiciones Preparadas. Continúa
 haciendo esto hasta que no queden dados en la bolsa.
-En este juego, el flanqueo no está permitido. En su
+
+En este juego, EL FLANQUEO NO ESTÁ PERMITIDO. En su
 lugar, todas las unidades que entren en la mesa como
 reservas pueden hacerlo desde cualquier punto del borde de la
 mesa que elijan - ¡cuidado!` };
@@ -958,17 +960,20 @@ const baseScenarioNames = [
 const baseScenarioTexts = [
 `El objetivo es sencillo: ambos bandos deben tratar de infligir el máximo daño al otro al tiempo que preservan sus propias fuerzas.
   
-Ganas 1 punto de victoria por cada unidad enemiga destruida. Al final de la partida, calcula qué bando ha ganado sumando los puntos de victoria como se ha
-descrito anteriormente. 
+Ganas 1 punto de victoria por cada unidad enemiga destruida. Al final de la partida, calcula qué bando ha ganado sumando los puntos de victoria como se ha descrito anteriormente. 
 
 Si un bando obtiene al menos 2 puntos de victoria más que el otro, entonces ese bando ha obtenido una clara victoria. En caso contrario, el resultado se considera demasiado por los pelos y se reparten los honores: ¡empate!`,
 
 `El campo de batalla incluye una serie de posiciones que son estratégicamente vitales para la continuación de la campaña y que deben ser tomadas a toda costa. Los jugadores deben intentar capturar el mayor número posible de objetivos. Uno de los jugadores tira un D3+4 - este es el número de marcadores de objetivo utilizados en este juego - deben ser fichas redondas de 25mm de diámetro. A continuación, ambos jugadores tiran un dado. El jugador con mayor puntuación coloca un marcador de objetivo en cualquier lugar de la mesa, luego su oponente coloca un marcador.
+
 Los jugadores continúan colocando marcadores de objetivo hasta que los hayan colocado todos. Todos los marcadores de objetivo deben estar a más de 12" unos de otros y a más de 6" del borde de la mesa.
+
 Estos objetivos pueden ser posiciones tácticamente importantes, como un edificio o la cima de una colina, o suministros, como un depósito de munición o una reserva de combustible, o tal vez un puesto de mando, un taller de reparación de vehículos o un emplazamiento para artillería de largo alcance o lanzacohetes. En términos de juego, suponemos que los objetivos son simples marcadores o fichas redondas de plástico, pero si los jugadores lo prefieren, los objetivos pueden representarse en cambio representarse con piezas de escenografía.
 Si deciden hacerlo, lo importante es que los jugadores identifiquen claramente los objetivos antes de que comience la batalla y qué reglas van a utilizar para ellos (cómo afectan a la línea de visión, al movimiento, a la cobertura, etc.).
 Para capturar un objetivo, una de tus unidades de infantería o artillería debe terminar su activación a 3" o menos del objetivo, y no debe haber ninguna unidad enemiga de ningún tipo a 3" o menos del mismo.
-Una vez que hayas capturado un objetivo, márcalo como tuyo con una miniatura o ficha adecuada (¡lo ideal es una bandera!). Permanecerá bajo tu control hasta el final de la partida, o hasta que una unidad enemiga vuelva a capturarlo, como se ha descrito anteriormente.
+Una vez que hayas capturado un objetivo, márcalo como tuyo con una miniatura o ficha adecuada (¡lo ideal es una bandera!). 
+
+Permanecerá bajo tu control hasta el final de la partida, o hasta que una unidad enemiga vuelva a capturarlo, como se ha descrito anteriormente.
 Al final de la partida, si controlas más objetivos que tu adversario, ganas; de lo contrario, la partida queda en tablas.`,
  
 `Ambos jugadores deben intentar mover el mayor número de sus unidades fuera de la mesa desde el borde de la zona de despliegue (BZD para abreviar) del jugador enemigo, como se muestra en los mapas de la página 169, o al menos entrar en la zona de despliegue enemiga. Nótese que en este escenario, se permite a las unidades mover deliberadamente fuera de la BZD del jugador enemigo para alcanzar su objetivo - para hacerlo, la unidad debe recibir la orden de Avanzar o Correr, y entonces todos los modelos de la unidad necesitan mover en contacto con la BZD del jugador enemigo. 
@@ -995,6 +1000,7 @@ Estas "bases" deben ser marcadores redondos de 25 mm de diámetro, al igual que 
 
 Ambos bandos deben destruir la base de su enemigo. Imagina que las unidades están equipadas con cargas satchel para esta misión.
 Al final de cualquier turno de juego, tira un dado por cada una de tus unidades de infantería o artillería que no esté Down y se encuentre a 3" o menos de la base enemiga (¡incluso si hay una unidad enemiga de cualquier tipo a 3" o menos de ella!). Con una tirada de 4+, la base queda destruida.
+
 Si al final de cualquier turno de juego se destruye una base, la partida termina inmediatamente. Si un jugador ha destruido la base de su adversario mientras la suya sigue en pie, ese jugador es el ganador. Si ambas bases son destruidas al final del mismo turno, la partida queda empatada.`,
  
 `Su fuerza ha sido enviada a una misión muy peligrosa para capturar un objetivo estratégico clave. Sus hombres han llegado a las inmediaciones del objetivo estratégico durante la noche y al amanecer intentará tomar la posición. 
