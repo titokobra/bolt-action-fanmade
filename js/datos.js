@@ -906,6 +906,28 @@ que por tanto necesite ser desplegada. A continuación, sacan un dado y el jugad
 
 En este juego, EL FLANQUEO NO ESTÁ PERMITIDO. En su lugar, todas las unidades que entren en la mesa como reservas pueden hacerlo desde cualquier punto del borde de la
 mesa que elijan - ¡cuidado!` };
+// TEXTOS EDITABLES DE LOS OBJETIVOS DE MISIONES BASE
+
+const baseScenarioTexts = [
+
+`OBJETIVO:
+Localizar y destruir las unidades más importantes del ejército enemigo. Ambos jugadores deberán avanzar por el campo de batalla intentando causar el mayor número posible de bajas y proteger sus propias tropas.`,
+
+`OBJETIVO:
+Controlar una serie de posiciones estratégicas repartidas por el campo de batalla. Los jugadores deberán ocupar los objetivos y mantenerlos bajo su control hasta el final de la partida.`,
+
+`OBJETIVO:
+Atravesar las líneas enemigas y alcanzar el extremo opuesto del campo de batalla. El defensor deberá detener el avance enemigo e impedir que sus unidades consigan escapar.`,
+
+`OBJETIVO:
+Recuperar información de gran valor situada en territorio enemigo. Los jugadores deberán localizar el objetivo, hacerse con él y transportarlo hasta una zona segura.`,
+
+`OBJETIVO:
+Destruir las instalaciones del ejército rival mientras se protegen las propias. Los jugadores tendrán que avanzar hacia la posición enemiga y conseguir cumplir su misión de demolición.`,
+
+`OBJETIVO:
+Mantener una posición estratégica frente a los constantes ataques enemigos. El defensor tendrá que resistir el mayor tiempo posible mientras el atacante intenta desalojarlo.`
+];
 
 const baseScenarioNames = [
  'BUSCAR Y DESTRUIR',
