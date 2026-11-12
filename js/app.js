@@ -25,13 +25,13 @@ const initialState = () => ({
  countLimitNotice:''
 });
 
+// Primero inicializamos el estado.
 let state = JSON.parse(localStorage.getItem('ba_state') || 'null') || initialState();
 
-// Compatibilidad con partidas guardadas en versiones anteriores.
+// Compatibilidad con partidas guardadas anteriormente.
 if (state.round == null) state.round = state.turn || 1;
-delete state.turn;
 
-// Eliminar los datos antiguos del modo flanqueo.
+delete state.turn;
 delete state.flankingEnabled;
 delete state.flankChoices;
 delete state.flankRevealed;
@@ -40,14 +40,11 @@ delete state.flankModal;
 delete state.flankSelected;
 delete state.flankPendingChoice;
 
-// Si había una partida guardada dentro del antiguo modo flanqueo,
-// volver a la pantalla de generación de dados.
 if (state.screen === 'flanking-ask' || state.screen === 'flanking-choose') {
  state.screen = 'generating';
 }
 
-// Restaurar exactamente la pantalla y la posición guardadas,
-// también en reglas y escenarios.
+// Restaurar la pantalla y la posición guardadas.
 if (state.scrollY == null) state.scrollY = 0;
 if (state.timerStartedAt === undefined) state.timerStartedAt = null;
 if (state.timerStoppedAt === undefined) state.timerStoppedAt = null;
