@@ -947,7 +947,7 @@ reservas pueden hacerlo desde cualquier punto del borde de la
 mesa que elijan - ¡cuidado!` };
 
 const baseScenarioNames = [
- 'BUSCAR Y DESTRUIR': `Ambos jugadores tiran un dado. El jugador con la
+ 'BUSCAR Y DESTRUIR', `Ambos jugadores tiran un dado. El jugador con la
 puntuación más alta declara cuáles de sus unidades se dejan
 en reserva (ver página 172 para las reglas sobre reservas) -
 deben ser al menos la mitad de las unidades del ejército del
