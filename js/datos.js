@@ -899,6 +899,7 @@ Al comienzo de la partida no se coloca ninguna unidad
 sobre la mesa (excepto los infiltrados, véase más abajo). Las
 unidades que no queden en reserva forman la primera
 oleada del jugador.
+
 Durante el Turno 1, ambos jugadores deben traer su
 primera oleada a la mesa. Estas unidades pueden entrar en la
 mesa desde cualquier punto del BZD del jugador, y deben
