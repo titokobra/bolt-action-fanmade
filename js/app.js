@@ -350,7 +350,6 @@ else if(b.dataset.diceAdjust){
   state[key]=clamp(state[key]+delta,1,18);
   render();
 }
-}
  else if(a==='flanking-yes'){state.flankingEnabled=true;state.flankStep=1;state.screen='flanking-choose';render()}
  else if(a==='flanking-no'){state.flankingEnabled=false;state.screen='generating';render()}
  else if(a==='choose-left'||a==='choose-right'){state.flankPendingChoice=a==='choose-left'?'left':'right';render()}
