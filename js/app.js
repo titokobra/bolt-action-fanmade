@@ -56,8 +56,7 @@ function render(){
   if(state.screen==='scenario-list') return scenarioList();
   if(state.screen==='scenario-detail') return scenarioDetail();
   if(state.screen==='setup') return setup();
-  if(state.screen==='flanking-ask') return flankingAsk();
-  if(state.screen==='flanking-choose') return flankingChoose();
+
   if(state.screen==='generating') return generating();
   if(state.screen==='round-title') return roundTitle();
   if(state.screen==='draw') return draw();
@@ -145,7 +144,7 @@ function draw(){
  <div class="extracted-summary" aria-live="polite">${state.resumeNotice&&state.last?`<div class="resume-notice ${state.last==='p1'?'player-1':'player-2'}"><span>LE TOCABA A</span><strong>${state.last==='p1'?'JUGADOR 1':'JUGADOR 2'}</strong></div>`:''}${state.drawn.length===0?'<strong>Todavía no se ha extraído ningún dado</strong>':`<strong>Dados extraídos: ${state.drawn.length} · Al agotarse la bolsa, termina la ronda.</strong>`}</div>
  <div class="draw-actions">${state.bag.length?btn('SIGUIENTE DADO','next-die'):btn('FIN DE RONDA','end-round')}</div>
  <div class="dice-remove-action">${state.bag.length?btn('ELIMINAR DADO','open-remove-die'):''}</div>
- ${state.flankingEnabled?`<div class="flank-game-tools">${(!state.flankRevealed.p1||!state.flankRevealed.p2)?'<button data-action="open-flank-reveal" class="flank-button">⚑ REVELAR FLANQUEO</button>':''}<div class="flank-revealed-list">${['p1','p2'].filter(k=>state.flankRevealed[k]).map(k=>`<p><strong>${esc(k==='p1'?state.p1:state.p2)}:</strong> ${state.flankChoices[k]==='left'?'IZQUIERDA':'DERECHA'}</p>`).join('')||'<small>Las elecciones de flanqueo siguen ocultas.</small>'}</div></div>`:''}</section>
+</section>
  ${state.removeDieOpen?`<div class="remove-modal" role="dialog" aria-modal="true" aria-labelledby="removeDieTitle"><div class="remove-modal-card"><h2 id="removeDieTitle">¿A qué jugador quieres eliminar un dado?</h2><div class="remove-modal-choices">${btn(esc(state.p1),'remove-p1','') .replace('<button ','<button '+(state.bag.includes('p1')?'':'disabled '))}${btn(esc(state.p2),'remove-p2','').replace('<button ','<button '+(state.bag.includes('p2')?'':'disabled '))}${btn('CANCELAR','cancel-remove-die','cancel-remove')}</div><p class="remove-help">El dado se resta inmediatamente de la bolsa de esta ronda y del contador visible. No modifica el recuento que se utilizará para preparar la siguiente ronda.</p></div></div>`:''}${flankingRevealModal()}${backButton()}`;
 }
 function countScreen(){view.innerHTML=`<section class="panel"><h2>DADOS PARA LA SIGUIENTE RONDA</h2><p class="count-instruction">Indica cuántos dados tendrá cada jugador en la próxima ronda. No puedes superar los dados que tenía al comenzar esta ronda.</p>
@@ -184,7 +183,7 @@ function winner(){
 function roundFinished(){view.innerHTML=`<section class="panel"><div class="round-finish-area"><div class="round-finish-title">RONDA ${state.round} FINALIZADA</div><div class="curtain" id="finishCurtain"></div></div><div class="draw-actions">${btn('CONTINUAR','continue-round')}</div></section>`;requestAnimationFrame(()=>{const c=$('#finishCurtain');if(c)c.classList.add('lift')})}
 function newBag(){state.roundStart1=state.remaining1;state.roundStart2=state.remaining2;state.countLimitNotice='';state.bag=[];for(let i=0;i<state.remaining1;i++)state.bag.push('p1');for(let i=0;i<state.remaining2;i++)state.bag.push('p2');state.bag.sort(()=>Math.random()-.5);state.drawn=[];state.last=null;state.reveal=false;state.removeDieOpen=false}
 function begin(){state.timerStartedAt=Date.now();
-state.timerStoppedAt=null;state.p1=$('#p1').value.trim()||'Jugador 1';state.p2=$('#p2').value.trim()||'Jugador 2';state.d1=clamp(+$('#d1').value,1,18);state.d2=clamp(+$('#d2').value,1,18);state.remaining1=state.d1;state.remaining2=state.d2;state.roundStart1=state.d1;state.roundStart2=state.d2;state.countLimitNotice='';state.round=1;state.winner=null;state.active=true;state.bag=[];state.drawn=[];state.removeDieOpen=false;state.flankingEnabled=false;state.flankChoices={p1:null,p2:null};state.flankRevealed={p1:false,p2:false};state.flankStep=1;state.flankModal=false;state.flankSelected=null;state.flankPendingChoice=null;state.screen='flanking-ask';render()}
+state.timerStoppedAt=null;state.p1=$('#p1').value.trim()||'Jugador 1';state.p2=$('#p2').value.trim()||'Jugador 2';state.d1=clamp(+$('#d1').value,1,18);state.d2=clamp(+$('#d2').value,1,18);state.remaining1=state.d1;state.remaining2=state.d2;state.roundStart1=state.d1;state.roundStart2=state.d2;state.countLimitNotice='';state.round=1;state.winner=null;state.active=true;state.bag=[];state.drawn=[];state.removeDieOpen=false;state.flankingEnabled=false;state.flankChoices={p1:null,p2:null};state.flankRevealed={p1:false,p2:false};state.flankStep=1;state.flankModal=false;state.flankSelected=null;state.flankPendingChoice=null;state.screen='generating';render()}
 function clamp(v,a,b){return Math.max(a,Math.min(b,Number.isFinite(v)?v:a))}
 function startRound(){newBag();state.screen='draw';render()}
 function nextDie(){
