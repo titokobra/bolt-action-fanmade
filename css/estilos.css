@@ -205,3 +205,47 @@ footer{color:#f2e7d2;text-shadow:1px 2px 4px #000}
 .deployment-rule-card h2{margin:0 0 14px}
 .deployment-rule-card .scenario-content{white-space:normal;line-height:1.42;word-spacing:normal;letter-spacing:normal}.deployment-rule-card .scenario-content{display:block}.deployment-rule-card .scenario-content br{display:none}
 @media(max-width:560px){.deployment-rule-card{padding:9px}.deployment-rule-card .scenario-content{font-size:.92rem;line-height:1.38}}
+
+/* Configuración inicial de jugadores y dados */
+.setup-name-input{
+  background:rgba(255,255,255,0.12);
+  border:1px solid rgba(255,255,255,0.25);
+  color:inherit;
+}
+
+.setup-name-input::placeholder{
+  color:rgba(255,255,255,0.55);
+  opacity:1;
+}
+
+.initial-dice-control{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:100%;
+  max-width:280px;
+  margin:12px auto;
+}
+
+.initial-dice-control strong{
+  font-size:2rem;
+  min-width:60px;
+  text-align:center;
+  font-weight:800;
+}
+
+.initial-dice-control button{
+  width:46px;
+  height:46px;
+  border:1px solid rgba(255,255,255,0.2);
+  border-radius:10px;
+  font-size:1.8rem;
+  font-weight:bold;
+  cursor:pointer;
+  background:rgba(255,255,255,0.12);
+  color:inherit;
+}
+
+.initial-dice-control button:active{
+  transform:scale(0.94);
+}
