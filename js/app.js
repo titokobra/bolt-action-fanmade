@@ -115,7 +115,20 @@ function deploymentDetail(){
 function groups(){view.innerHTML=`<section class="panel"><h2>ELECCIÓN DE ESCENARIOS</h2><div class="menu-grid">${Object.keys(scenarioGroups).map(g=>`<button class="menu-button" data-group="${esc(g)}">${g}</button>`).join('')}</div></section>${backButton()}`}
 
 function baseScenarioList(){view.innerHTML=`<section class="panel"><h2>ESCENARIOS JUEGO BASE</h2><p class="deployment-roll-prompt">TIRAR UN DADO D6</p><div class="scenario-list">${baseScenarioNames.map((name,i)=>`<button data-base-scenario="${i+1}">${i+1}. ${name}</button>`).join('')}</div></section>${backButton()}`}
-function baseScenarioDetail(){const n=Number(state.baseScenario),name=baseScenarioNames[n-1]||'ESCENARIO';view.innerHTML=`<section class="panel"><article class="deployment-rule-card"><h2>${n}. ${esc(name)}</h2><div class="scenario-content">El reglamento de este escenario está pendiente de incorporar.</div></article></section>${backButton()}`}
+function baseScenarioDetail(){
+ const n = Number(state.baseScenario);
+ const name = baseScenarioNames[n-1] || 'ESCENARIO';
+ const text = baseScenarioTexts[n-1] || 'Texto pendiente de incorporar.';
+
+ view.innerHTML = `
+ <section class="panel">
+   <article class="deployment-rule-card">
+     <h2>${n}. ${esc(name)}</h2>
+     <div class="scenario-content">${esc(text)}</div>
+   </article>
+ </section>
+ ${backButton()}`;
+}
 function scenarioList(){let g=state.group;view.innerHTML=`<section class="panel"><h2>${esc(g)}</h2><div class="scenario-list">${scenarioGroups[g].map(s=>`<button data-scenario="${s[0]}">${s[0].padStart(2,'0')}. ${esc(s[1])}</button>`).join('')}</div></section>${backButton()}`}
 function scenarioDetail(){let s=scenarioGroups[state.group].find(x=>x[0]===state.scenario);view.innerHTML=`<section class="panel"><h2>${esc(s[0])}. ${esc(s[1])}</h2><div class="scenario-content">${esc(s[2])}</div></section>${backButton()}`}
 function setup(){view.innerHTML=`<section class="panel"><h2>CONFIGURAR PARTIDA</h2><div class="field"><label>Nombre del jugador 1</label><input id="p1" value="${esc(state.p1)}"></div><div class="field"><label>Nombre del jugador 2</label><input id="p2" value="${esc(state.p2)}"></div><div class="field"><label>Dados iniciales de ${esc(state.p1)}</label><input id="d1" type="number" min="1" max="18" value="${state.d1}"></div><div class="field"><label>Dados iniciales de ${esc(state.p2)}</label><input id="d2" type="number" min="1" max="18" value="${state.d2}"></div><div class="choice-row">${btn('CONTINUAR','begin')}</div></section>${backButton()}` }
