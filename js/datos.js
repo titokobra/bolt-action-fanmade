@@ -1083,69 +1083,18 @@ a más de 12" del maletín (o del edificio que lo contiene),
 por lo que no pueden apoderarse de él en el turno 1 de la
 partida, a menos, claro está, que desembarquen de un
 transporte que se haya movido lo suficientemente cerca.`,
-  `Los aviones de reconocimiento han localizado el cuartel
-general enemigo. Su objetivo es alcanzar la posición
-enemiga y destruirla. Es de esperar una fuerte resistencia
-enemiga, por lo que debes atacar con fuerza, pero asegúrate
-de dejar atrás una parte de tus fuerzas para defender tu
-propia base de operaciones.
-Tras determinar las zonas de despliegue y el tipo de
-despliegue, los jugadores hacen una tirada enfrentada. El
-perdedor coloca su peana en su zona de despliegue, a una
-distancia máxima de 20" de la línea central de la mesa. El
-otro jugador coloca su peana en su zona de despliegue de la
-misma manera.
-Ten en cuenta que en este escenario, todas las unidades
-(incluidos los infiltrados) deben desplegarse a más de 18" de
-la base enemiga.
-Estas "bases" deben ser marcadores redondos de 25 mm
-de diámetro, al igual que los marcadores de objetivo en
-Posiciones Clave, página 164. Alternativamente, pueden
-representarse mediante un modelo de puesto de mando
-(tienda, trinchera, vehículo de mando, etc.) o elemento
-similar (por ejemplo, edificio, depósito de combustible,
-mástil de radio, etc.) - lo importante es que ambos
-jugadores identifiquen claramente sus bases al comienzo de
-la partida y qué reglas van a usar para ellas (cómo afectan a
-la línea de visión, movimiento, cobertura, etc.).
-Ambos bandos deben destruir la base de su enemigo.
-Imagina que las unidades están equipadas con cargas satchel
-para esta misión.
-Al final de cualquier turno de juego, tira un dado por
-cada una de tus unidades de infantería o artillería que no
-esté Down y se encuentre a 3" o menos de la base
-enemiga (¡incluso si hay una unidad enemiga de cualquier
-tipo a 3" o menos de ella!). Con una tirada de 4+, la
-base queda destruida.
-Si al final de cualquier turno de juego se destruye una
-base, la partida termina inmediatamente. Si un jugador ha
-destruido la base de su adversario mientras la suya sigue en
-pie, ese jugador es el ganador. Si ambas bases son destruidas
-al final del mismo turno, la partida queda empatada.`,
-  `Su fuerza ha sido enviada a una misión muy peligrosa para
-capturar un objetivo estratégico clave. Sus hombres han llegado
-a las inmediaciones del objetivo estratégico durante la noche
-y al amanecer intentará tomar la posición. A continuación,
-se atrincherarán ante los inevitables contraataques y
-aguantarán hasta ser relevados.
-Coloca un marcador de objetivo (ver Posiciones Clave,
-página 164) en el centro de la mesa para representar este
-objetivo estratégico. Este objetivo estratégico podría ser un
-puente, un depósito de munición o combustible, una pista
-de aterrizaje, un búnker de mando, un punto de
-lanzamiento de V2, o cualquier cosa comparable. Si los
-jugadores deciden utilizar un trozo de terreno para
-representarlo en lugar de un marcador, deberán definir sus
-reglas y propiedades como se describe para las bases en
-Demolición (más arriba). El objetivo es controlar el
-objetivo estratégico al final de la partida. Para controlar el
-<p><p><p><p>
-objetivo, una de tus unidades de infantería o artillería debe
-terminar su activación a menos de 3" del objetivo, y no
-debe haber ninguna unidad enemiga de ningún tipo a
-menos de 3" del mismo. Si un bando controla el
-objetivo estratégico al final de la partida, es el ganador.
-Si ningún bando controla el objetivo, la partida es un
-empate.`
+ 
+  `Los aviones de reconocimiento han localizado el cuartel general enemigo. Su objetivo es alcanzar la posición enemiga y destruirla. Es de esperar una fuerte resistencia enemiga, por lo que debes atacar con fuerza, pero asegúrate de dejar atrás una parte de tus fuerzas para defender tu propia base de operaciones.
+Tras determinar las zonas de despliegue y el tipo de despliegue, los jugadores hacen una tirada enfrentada. El perdedor coloca su peana en su zona de despliegue, a una distancia máxima de 20" de la línea central de la mesa. El otro jugador coloca su peana en su zona de despliegue de la misma manera.
+Ten en cuenta que en este escenario, todas las unidades (incluidos los infiltrados) deben desplegarse a más de 18" de la base enemiga.
+Estas "bases" deben ser marcadores redondos de 25 mm de diámetro, al igual que los marcadores de objetivo en Posiciones Clave, página 164. Alternativamente, pueden representarse mediante un modelo de puesto de mando (tienda, trinchera, vehículo de mando, etc.) o elemento similar (por ejemplo, edificio, depósito de combustible, mástil de radio, etc.) - lo importante es que ambos jugadores identifiquen claramente sus bases al comienzo de la partida y qué reglas van a usar para ellas (cómo afectan a la línea de visión, movimiento, cobertura, etc.).
+Ambos bandos deben destruir la base de su enemigo. Imagina que las unidades están equipadas con cargas satchel para esta misión.
+Al final de cualquier turno de juego, tira un dado por cada una de tus unidades de infantería o artillería que no esté Down y se encuentre a 3" o menos de la base enemiga (¡incluso si hay una unidad enemiga de cualquier tipo a 3" o menos de ella!). Con una tirada de 4+, la base queda destruida.
+Si al final de cualquier turno de juego se destruye una base, la partida termina inmediatamente. Si un jugador ha destruido la base de su adversario mientras la suya sigue en pie, ese jugador es el ganador. Si ambas bases son destruidas al final del mismo turno, la partida queda empatada.`,
+ 
+  `Su fuerza ha sido enviada a una misión muy peligrosa para capturar un objetivo estratégico clave. Sus hombres han llegado a las inmediaciones del objetivo estratégico durante la noche
+y al amanecer intentará tomar la posición. A continuación, se atrincherarán ante los inevitables contraataques y aguantarán hasta ser relevados. Coloca un marcador de objetivo (ver posiciones Clave, página 164) en el centro de la mesa para representar este objetivo estratégico. Este objetivo estratégico podría ser un puente, un depósito de munición o combustible, una pista de aterrizaje, un búnker de mando, un punto de lanzamiento de V2, o cualquier cosa comparable. Si los jugadores deciden utilizar un trozo de terreno para representarlo en lugar de un marcador, deberán definir sus reglas y propiedades como se describe para las bases en Demolición (más arriba). El objetivo es controlar el objetivo estratégico al final de la partida. Para controlar el objetivo, una de tus unidades de infantería o artillería debe terminar su activación a menos de 3" del objetivo, y no debe haber ninguna unidad enemiga de ningún tipo a menos de 3" del mismo. Si un bando controla el objetivo estratégico al final de la partida, es el ganador.
+
+Si ningún bando controla el objetivo, la partida es un empate.`
 ];
 
