@@ -214,7 +214,7 @@ footer{color:#f2e7d2;text-shadow:1px 2px 4px #000}
 }
 
 .setup-name-input::placeholder{
-  color:rgba(255,255,255,0.55);
+  color:#999999;
   opacity:1;
 }
 
@@ -234,18 +234,39 @@ footer{color:#f2e7d2;text-shadow:1px 2px 4px #000}
   font-weight:800;
 }
 
+.initial-dice-control{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:100%;
+  max-width:280px;
+  margin:12px auto;
+}
+
+.initial-dice-control strong{
+  font-size:2rem;
+  min-width:60px;
+  text-align:center;
+  font-weight:800;
+}
+
 .initial-dice-control button{
-  width:46px;
-  height:46px;
-  border:1px solid rgba(255,255,255,0.2);
-  border-radius:10px;
-  font-size:1.8rem;
-  font-weight:bold;
+  width:42px;
+  height:42px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border:1px solid rgba(255,255,255,0.16);
+  border-radius:50%;
+  font-size:1.5rem;
+  font-weight:400;
   cursor:pointer;
-  background:rgba(255,255,255,0.12);
+  background:rgba(255,255,255,0.10);
   color:inherit;
+  transition:background 0.15s, transform 0.15s;
 }
 
 .initial-dice-control button:active{
-  transform:scale(0.94);
+  background:rgba(255,255,255,0.22);
+  transform:scale(0.92);
 }
