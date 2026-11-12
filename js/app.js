@@ -334,21 +334,13 @@ view.addEventListener('click',e=>{
  else if(a==='go-home'){if(['draw','round-title','round-finished','count','finish-choice','winner'].includes(state.screen))state.screenBeforePause=state.screen;state.screen='home';render()}
  else if(a==='reset')resetMatch()
   else if(a==='back'){
-    if(appHistoryDepth > 0){
-      history.back();
-    }else if(state.screen !== 'home'){
-      state.screen = 'home';
-      render();
-    }
+  if(appHistoryDepth > 0){
+    history.back();
+  }else if(state.screen !== 'home'){
+    state.screen = 'home';
+    render();
   }
-  else if(a==='begin'){
-    begin();
-  }
- else if(state.screen==='faction-detail')state.screen='factions';
- else if(state.screen==='factions')state.screen='rules-menu';
- else if(state.screen==='deployment-detail')state.screen='deployment-menu';
- else if(state.screen==='deployment-menu'||state.screen==='scenario-groups'||state.screen==='setup'||state.screen==='rules-menu')state.screen='home';
- else if(state.screen==='rules-list')state.screen='rules-menu';else if(state.screen==='rules-detail')state.screen='rules-list';else if(state.screen==='scenario-list')state.screen='scenario-groups';else if(state.screen==='scenario-detail')state.screen='scenario-list';else if(['draw','round-title','round-finished','count','finish-choice'].includes(state.screen)){state.screenBeforePause=state.screen;state.screen='home'}else state.screen='home';render()}
+}
 else if(a==='begin'){
   begin();
 }
@@ -357,6 +349,7 @@ else if(b.dataset.diceAdjust){
   const delta=Number(b.dataset.delta);
   state[key]=clamp(state[key]+delta,1,18);
   render();
+}
 }
  else if(a==='flanking-yes'){state.flankingEnabled=true;state.flankStep=1;state.screen='flanking-choose';render()}
  else if(a==='flanking-no'){state.flankingEnabled=false;state.screen='generating';render()}
