@@ -946,7 +946,7 @@ lugar, todas las unidades que entren en la mesa como
 reservas pueden hacerlo desde cualquier punto del borde de la
 mesa que elijan - ¡cuidado!` };
 
-const baseScenarioNames = {
+const baseScenarioNames = [
  'BUSCAR Y DESTRUIR': `Ambos jugadores tiran un dado. El jugador con la
 puntuación más alta declara cuáles de sus unidades se dejan
 en reserva (ver página 172 para las reglas sobre reservas) -
@@ -972,5 +972,5 @@ mesa que elijan - ¡cuidado!`,
  'TOP SECRET',
  'DEMOLICIÓN',
  'RESISTIR HASTA SER RELEVADOS'
-};
+];
 
