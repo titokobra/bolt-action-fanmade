@@ -192,7 +192,8 @@ function roundTitle(){view.innerHTML=`<section class="panel"><div class="turn-ti
 function draw(){
  // Estos contadores reflejan los dados que quedan realmente dentro de la bolsa de esta ronda.
  const n1=state.bag.filter(x=>x==='p1').length,n2=state.bag.filter(x=>x==='p2').length;
- view.innerHTML=`<section class="panel"><div class="dice-counters"><div class="counter">${esc(state.p1)}<strong>${n1}</strong><small class="muted">dados en la bolsa</small></div><div class="counter">${esc(state.p2)}<strong>${n2}</strong><small class="muted">dados en la bolsa</small></div></div>
+ view.innerHTML=`<section class="panel"><div class="dice-counters"><div class="counter">${esc(state.p1)}<strong>${n1}</strong><small class="muted">dados en la bolsa</small></div>
+ <div class="counter player-2-counter">${esc(state.p2)}<strong>${n2}</strong><small class="muted">dados en la bolsa</small></div></div>
  <div class="draw-area" id="drawArea" style="background:${state.last==='p1'?'var(--green)':state.last==='p2'?'var(--red)':'#272a22'}"><div class="player-name">${state.last?esc(state.last==='p1'?state.p1:state.p2):'¿QUIÉN ACTÚA?'}</div><div class="curtain ${state.reveal?'lift':''}" id="curtain"></div></div>
  <div class="extracted-summary" aria-live="polite">${state.resumeNotice&&state.last?`<div class="resume-notice ${state.last==='p1'?'player-1':'player-2'}"><span>LE TOCABA A</span><strong>${state.last==='p1'?'JUGADOR 1':'JUGADOR 2'}</strong></div>`:''}${state.drawn.length===0?'<strong>Todavía no se ha extraído ningún dado</strong>':`<strong>Dados extraídos: ${state.drawn.length} · Al agotarse la bolsa, termina la ronda.</strong>`}</div>
  <div class="draw-actions">${state.bag.length?btn('SIGUIENTE DADO','next-die'):btn('FIN DE RONDA','end-round')}</div>
