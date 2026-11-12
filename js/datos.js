@@ -887,23 +887,23 @@ const factionRules = {
 };
 
 const deploymentRules = { '1-3': `Ambos jugadores tiran un dado. El jugador con mayor puntuación declara cuáles de sus unidades (si las hay) se dejan en reserva (ver página 172 para las reglas sobre reservas) - puede ser hasta la mitad de las unidades del ejército del jugador, redondeando hacia abajo. El jugador también debe declarar qué  unidades utilizan la regla especial Infiltrados y qué unidades comienzan la partida montadas en qué vehículo de transporte. El otro jugador hace lo mismo.
-
+\n
 Al comienzo de la partida no se coloca ninguna unidad sobre la mesa (excepto los infiltrados, véase más abajo). Las unidades que no queden en reserva forman la primera oleada del jugador.
-
+\n
 Durante el Turno 1, ambos jugadores deben traer su primera oleada a la mesa. Estas unidades pueden entrar en la mesa desde cualquier punto del BZD del jugador, y deben recibir una orden de Correr o de Avanzar. Nótese que no se requiere ninguna prueba de orden para mover unidades a la mesa como parte de la primera oleada y que las tropas no
 pueden realizar un asalto cuando entran en la mesa.`,
                          
 '4-5': `Ambos jugadores tiran un dado. 
 El que obtenga la puntuación más alta declara cuáles de sus unidades (si las hay) se dejan en reserva (véase la página 172 para las reglas sobre reservas) - puede ser hasta la mitad de las unidades de su ejército, redondeando hacia abajo. El jugador también debe declarar qué unidades utilizan la regla especial Infiltrados y qué unidades comienzan la partida montadas en qué vehículo de transporte. El otro jugador hace lo mismo.
-
+\n
 A continuación, ambos jugadores colocan un dado de orden en la bolsa por cada unidad que no esté en reserva, montada en un transporte o utilizando la regla Infiltrados, y que por lo tanto necesite ser desplegada. A continuación, se extrae un dado y el jugador cuyo dado ha sido extraído debe desplegar una de sus unidades por completo en su zona de despliegue. Continúa haciendo esto hasta que no queden dados en la bolsa.`,
-                         
+\n                       
 '6': `Ambos jugadores tiran un dado. El jugador con la puntuación más alta declara cuáles de sus unidades se dejan en reserva (ver página 172 para las reglas sobre reservas) - deben ser al menos la mitad de las unidades del ejército del jugador, redondeando hacia arriba. El jugador también debe declarar qué unidades usan la regla especial Infiltradores y qué unidades comienzan la partida montadas en qué vehículo de transporte. 
 El otro jugador hace lo mismo.
-
+\n
 A continuación, ambos jugadores ponen un dado de orden en la bolsa por cada unidad que no esté en reserva, montada en un transporte, o usando la regla Infiltrados, y
 que por tanto necesite ser desplegada. A continuación, sacan un dado y el jugador cuyo dado ha sido sacado debe desplegar una de sus unidades, como se ha descrito anteriormente para Posiciones Preparadas. Continúa haciendo esto hasta que no queden dados en la bolsa.
-
+\n
 En este juego, EL FLANQUEO NO ESTÁ PERMITIDO. En su lugar, todas las unidades que entren en la mesa como reservas pueden hacerlo desde cualquier punto del borde de la
 mesa que elijan - ¡cuidado!` };
 // TEXTOS EDITABLES DE LOS OBJETIVOS DE MISIONES BASE
