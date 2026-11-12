@@ -930,7 +930,7 @@ deben ser al menos la mitad de las unidades del ejército del
 jugador, redondeando hacia arriba. El jugador también debe
 declarar qué unidades usan la regla especial Infiltradores y
 qué unidades comienzan la partida montadas en qué
-vehículo de transporte. El otro jugador hace lo mismo.
+vehículo de transporte. El otro jugador hace lo mismo.\n
 A continuación, ambos jugadores ponen un dado de
 orden en la bolsa por cada unidad que no esté en reserva,
 montada en un transporte, o usando la regla Infiltrados, y
