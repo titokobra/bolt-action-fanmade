@@ -815,17 +815,21 @@ window.addEventListener('beforeunload',()=>{
  save();
 });
 
-document.getElementById('resetConfirmModal').addEventListener('click',e=>{
- const choice=e.target.closest('[data-reset-choice]');
+const resetModal = document.getElementById('resetConfirmModal');
 
- if(!choice){
-  if(e.target.id==='resetConfirmModal')closeResetModal();
-  return;
- }
+if(resetModal){
+ resetModal.addEventListener('click',e=>{
+  const choice=e.target.closest('[data-reset-choice]');
 
- if(choice.dataset.resetChoice==='yes')confirmResetMatch();
- else closeResetModal();
-});
+  if(!choice){
+   if(e.target.id==='resetConfirmModal')closeResetModal();
+   return;
+  }
+
+  if(choice.dataset.resetChoice==='yes')confirmResetMatch();
+  else closeResetModal();
+ });
+}
 
 view.addEventListener('click',e=>{
  const b=e.target.closest('button');
