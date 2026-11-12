@@ -341,6 +341,7 @@ view.addEventListener('click',e=>{
     render();
   }
 }
+
 else if(a==='begin'){
   begin();
 }
