@@ -1139,6 +1139,7 @@ representarlo en lugar de un marcador, deberán definir sus
 reglas y propiedades como se describe para las bases en
 Demolición (más arriba). El objetivo es controlar el
 objetivo estratégico al final de la partida. Para controlar el
+<p><p><p><p>
 objetivo, una de tus unidades de infantería o artillería debe
 terminar su activación a menos de 3" del objetivo, y no
 debe haber ninguna unidad enemiga de ningún tipo a
