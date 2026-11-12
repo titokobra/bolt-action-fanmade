@@ -2,6 +2,14 @@ const $ = s => document.querySelector(s);
 const view = $('#view');
 const initialState = () => ({screen:'home',p1:'',p2:'',d1:8,d2:8,round:1,remaining1:8,remaining2:8,bag:[],drawn:[],last:null,mode:'',winner:null,active:false,removeDieOpen:false,flankingEnabled:false,flankChoices:{p1:null,p2:null},flankRevealed:{p1:false,p2:false},flankStep:1,flankModal:false,flankSelected:null,flankPendingChoice:null,timerStartedAt:null,timerStoppedAt:null,roundStart1:8,roundStart2:8,countLimitNotice:''});
 let state = JSON.parse(localStorage.getItem('ba_state') || 'null') || initialState();
+// Historial de navegación de la aplicación
+let lastRenderedScreen = state.screen;
+let appHistoryDepth = 0;
+
+history.replaceState({
+  boltAction: true,
+  screen: state.screen
+}, '');
 // Compatibilidad con partidas guardadas en versiones anteriores.
 if (state.round == null) state.round = state.turn || 1;
 delete state.turn;
@@ -39,6 +47,17 @@ function updateGlobalClock(){
  box.classList.toggle('danger',elapsed>=135*60*1000);
 }
 function render(){
+
+  if(state.screen !== lastRenderedScreen){
+    history.pushState({
+      boltAction: true,
+      screen: state.screen
+    }, '');
+
+    appHistoryDepth++;
+    lastRenderedScreen = state.screen;
+  }
+
   updateGlobalClock();
   save();
   document.body.dataset.screen = state.screen;
@@ -283,6 +302,18 @@ view.addEventListener('input',e=>{
  else if(el.id==='d1'){state.d1=clamp(+el.value,1,18);save()}
  else if(el.id==='d2'){state.d2=clamp(+el.value,1,18);save()}
 });
+window.addEventListener('popstate',e=>{
+
+  if(!e.state || !e.state.boltAction) return;
+
+  appHistoryDepth = Math.max(0,appHistoryDepth-1);
+
+  state.screen = e.state.screen;
+  lastRenderedScreen = state.screen;
+
+  render();
+
+});
 window.addEventListener('scroll',()=>{state.scrollY=window.scrollY;save()},{passive:true});
 window.addEventListener('pagehide',()=>{state.scrollY=window.scrollY;save()});
 window.addEventListener('beforeunload',()=>{state.scrollY=window.scrollY;save()});
@@ -302,7 +333,15 @@ view.addEventListener('click',e=>{
  else if(a==='resume'){state.screen=state.screenBeforePause||(state.bag&&state.bag.length?'draw':'round-title');state.resumeNotice=true;render()}
  else if(a==='go-home'){if(['draw','round-title','round-finished','count','finish-choice','winner'].includes(state.screen))state.screenBeforePause=state.screen;state.screen='home';render()}
  else if(a==='reset')resetMatch()
- else if(a==='back'){if(state.screen==='base-scenario-detail')state.screen='base-scenario-list';else if(state.screen==='base-scenario-list')state.screen='scenario-groups';else if(state.screen==='faction-detail')state.screen='factions';else if(state.screen==='factions')state.screen='rules-menu';else if(state.screen==='deployment-detail')state.screen='deployment-menu';else if(state.screen==='deployment-menu'||state.screen==='scenario-groups'||state.screen==='setup'||state.screen==='rules-menu')state.screen='home';else if(state.screen==='rules-list')state.screen='rules-menu';else if(state.screen==='rules-detail')state.screen='rules-list';else if(state.screen==='scenario-list')state.screen='scenario-groups';else if(state.screen==='scenario-detail')state.screen='scenario-list';else if(['draw','round-title','round-finished','count','finish-choice'].includes(state.screen)){state.screenBeforePause=state.screen;state.screen='home'}else state.screen='home';render()}
+ else if(a==='back'){
+  if(appHistoryDepth > 0){
+    history.back();
+  }else if(state.screen !== 'home'){
+    state.screen = 'home';
+    render();
+  }
+};
+ else if(state.screen==='base-scenario-list')state.screen='scenario-groups';else if(state.screen==='faction-detail')state.screen='factions';else if(state.screen==='factions')state.screen='rules-menu';else if(state.screen==='deployment-detail')state.screen='deployment-menu';else if(state.screen==='deployment-menu'||state.screen==='scenario-groups'||state.screen==='setup'||state.screen==='rules-menu')state.screen='home';else if(state.screen==='rules-list')state.screen='rules-menu';else if(state.screen==='rules-detail')state.screen='rules-list';else if(state.screen==='scenario-list')state.screen='scenario-groups';else if(state.screen==='scenario-detail')state.screen='scenario-list';else if(['draw','round-title','round-finished','count','finish-choice'].includes(state.screen)){state.screenBeforePause=state.screen;state.screen='home'}else state.screen='home';render()}
 else if(a==='begin'){
   begin();
 }
