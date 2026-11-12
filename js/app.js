@@ -1,6 +1,6 @@
 const $ = s => document.querySelector(s);
 const view = $('#view');
-const initialState = () => ({screen:'home',p1:'Jugador 1',p2:'Jugador 2',d1:8,d2:8,round:1,remaining1:8,remaining2:8,bag:[],drawn:[],last:null,mode:'',winner:null,active:false,removeDieOpen:false,flankingEnabled:false,flankChoices:{p1:null,p2:null},flankRevealed:{p1:false,p2:false},flankStep:1,flankModal:false,flankSelected:null,flankPendingChoice:null,timerStartedAt:null,timerStoppedAt:null,roundStart1:8,roundStart2:8,countLimitNotice:''});
+const initialState = () => ({screen:'home',p1:'',p2:'',d1:8,d2:8,round:1,remaining1:8,remaining2:8,bag:[],drawn:[],last:null,mode:'',winner:null,active:false,removeDieOpen:false,flankingEnabled:false,flankChoices:{p1:null,p2:null},flankRevealed:{p1:false,p2:false},flankStep:1,flankModal:false,flankSelected:null,flankPendingChoice:null,timerStartedAt:null,timerStoppedAt:null,roundStart1:8,roundStart2:8,countLimitNotice:''});
 let state = JSON.parse(localStorage.getItem('ba_state') || 'null') || initialState();
 // Compatibilidad con partidas guardadas en versiones anteriores.
 if (state.round == null) state.round = state.turn || 1;
@@ -130,7 +130,60 @@ function baseScenarioDetail(){
 }
 function scenarioList(){let g=state.group;view.innerHTML=`<section class="panel"><h2>${esc(g)}</h2><div class="scenario-list">${scenarioGroups[g].map(s=>`<button data-scenario="${s[0]}">${s[0].padStart(2,'0')}. ${esc(s[1])}</button>`).join('')}</div></section>${backButton()}`}
 function scenarioDetail(){let s=scenarioGroups[state.group].find(x=>x[0]===state.scenario);view.innerHTML=`<section class="panel"><h2>${esc(s[0])}. ${esc(s[1])}</h2><div class="scenario-content">${esc(s[2])}</div></section>${backButton()}`}
-function setup(){view.innerHTML=`<section class="panel"><h2>CONFIGURAR PARTIDA</h2><div class="field"><label>Nombre del jugador 1</label><input id="p1" value="${esc(state.p1)}"></div><div class="field"><label>Nombre del jugador 2</label><input id="p2" value="${esc(state.p2)}"></div><div class="field"><label>Dados iniciales de ${esc(state.p1)}</label><input id="d1" type="number" min="1" max="18" value="${state.d1}"></div><div class="field"><label>Dados iniciales de ${esc(state.p2)}</label><input id="d2" type="number" min="1" max="18" value="${state.d2}"></div><div class="choice-row">${btn('CONTINUAR','begin')}</div></section>${backButton()}` }
+function setup(){
+ const name1=state.p1==='Jugador 1'?'':state.p1;
+ const name2=state.p2==='Jugador 2'?'':state.p2;
+
+ view.innerHTML=`
+ <section class="panel setup-panel">
+   <h2>CONFIGURAR PARTIDA</h2>
+
+   <div class="field">
+     <label>Nombre del jugador 1</label>
+     <input
+       class="setup-name-input"
+       id="p1"
+       type="text"
+       placeholder="Escribe tu nombre"
+       value="${esc(name1)}"
+     >
+   </div>
+
+   <div class="field">
+     <label>Nombre del jugador 2</label>
+     <input
+       class="setup-name-input"
+       id="p2"
+       type="text"
+       placeholder="Escribe tu nombre"
+       value="${esc(name2)}"
+     >
+   </div>
+
+   <div class="field dice-setup-field">
+     <label>Dados iniciales de jugador 1</label>
+     <div class="initial-dice-control">
+       <button type="button" data-dice-adjust="d1" data-delta="-1">−</button>
+       <strong>${state.d1}</strong>
+       <button type="button" data-dice-adjust="d1" data-delta="1">+</button>
+     </div>
+   </div>
+
+   <div class="field dice-setup-field">
+     <label>Dados iniciales de jugador 2</label>
+     <div class="initial-dice-control">
+       <button type="button" data-dice-adjust="d2" data-delta="-1">−</button>
+       <strong>${state.d2}</strong>
+       <button type="button" data-dice-adjust="d2" data-delta="1">+</button>
+     </div>
+   </div>
+
+   <div class="choice-row">
+     ${btn('CONTINUAR','begin')}
+   </div>
+ </section>
+ ${backButton()}`;
+}
 function flankingAsk(){view.innerHTML=`<section class="panel"><h2>REGLAS DE FLANQUEO</h2><p>¿Se utilizarán las reglas de flanqueo en esta partida?</p><div class="choice-row">${btn('SÍ, UTILIZAR FLANQUEO','flanking-yes')}${btn('NO, SIN FLANQUEO','flanking-no')}</div></section>${backButton()}`}
 function flankingChoose(){const who=state.flankStep===1?'p1':'p2',name=who==='p1'?state.p1:state.p2,chosenText=state.flankPendingChoice?`<div class="flank-choice-confirmation">${esc(name)} eligió el flanqueo por la ${state.flankPendingChoice==='left'?'izquierda':'derecha'}.</div>`:'';view.innerHTML=`<section class="panel"><h2>ELECCIÓN DE FLANQUEO</h2><p><strong>${esc(name)}</strong></p><p>¿Por qué lado quieres realizar el flanqueo?</p><div class="flank-choice-grid"><button class="flank-choice ${state.flankPendingChoice==='left'?'selected':''}" data-action="choose-left"><span class="flank-arrow">←</span><span>Por tu izquierda</span></button><button class="flank-choice ${state.flankPendingChoice==='right'?'selected':''}" data-action="choose-right"><span class="flank-arrow">→</span><span>Por tu derecha</span></button></div>${chosenText}<div class="notice">Tu elección será privada y no se mostrará al otro jugador.</div><div class="choice-row">${btn('SIGUIENTE','confirm-flank-choice',state.flankPendingChoice?'':'')} </div></section>`}
 function flankingRevealModal(){if(!state.flankModal)return '';if(!state.flankSelected)return `<div class="remove-modal" role="dialog" aria-modal="true"><div class="remove-modal-card"><h2>¿Qué jugador quiere revelar su flanqueo?</h2><div class="remove-modal-choices">${!state.flankRevealed.p1?btn(esc(state.p1),'select-flank-p1'):''}${!state.flankRevealed.p2?btn(esc(state.p2),'select-flank-p2'):''}${btn('CANCELAR','cancel-flank')}</div></div></div>`;const name=state.flankSelected==='p1'?state.p1:state.p2;return `<div class="remove-modal" role="dialog" aria-modal="true"><div class="remove-modal-card"><h2>CONFIRMAR REVELACIÓN</h2><p>¿Estás seguro de que quieres revelar el flanqueo de ${esc(name)}?</p><p class="muted">La elección solo se mostrará si pulsas CONFIRMAR.</p><div class="remove-modal-choices">${btn('CONFIRMAR','confirm-flank-reveal')}${btn('CANCELAR','cancel-flank')}</div></div></div>`}
@@ -249,6 +302,12 @@ view.addEventListener('click',e=>{
  else if(a==='reset')resetMatch()
  else if(a==='back'){if(state.screen==='base-scenario-detail')state.screen='base-scenario-list';else if(state.screen==='base-scenario-list')state.screen='scenario-groups';else if(state.screen==='faction-detail')state.screen='factions';else if(state.screen==='factions')state.screen='rules-menu';else if(state.screen==='deployment-detail')state.screen='deployment-menu';else if(state.screen==='deployment-menu'||state.screen==='scenario-groups'||state.screen==='setup'||state.screen==='rules-menu')state.screen='home';else if(state.screen==='rules-list')state.screen='rules-menu';else if(state.screen==='rules-detail')state.screen='rules-list';else if(state.screen==='scenario-list')state.screen='scenario-groups';else if(state.screen==='scenario-detail')state.screen='scenario-list';else if(['draw','round-title','round-finished','count','finish-choice'].includes(state.screen)){state.screenBeforePause=state.screen;state.screen='home'}else state.screen='home';render()}
  else if(a==='begin')begin()
+   else if(b.dataset.diceAdjust){
+   const key=b.dataset.diceAdjust;
+   const delta=Number(b.dataset.delta);
+   state[key]=clamp(state[key]+delta,1,18);
+   render();
+ }
  else if(a==='flanking-yes'){state.flankingEnabled=true;state.flankStep=1;state.screen='flanking-choose';render()}
  else if(a==='flanking-no'){state.flankingEnabled=false;state.screen='generating';render()}
  else if(a==='choose-left'||a==='choose-right'){state.flankPendingChoice=a==='choose-left'?'left':'right';render()}
